@@ -1,0 +1,61 @@
+<section class="shadow-t theme-grey">
+
+    <!-- Header -->
+
+    <header class="constrain pad-xy-respond">
+        <h2 class="special">Contact Us</h2>
+        <p>Start a conversation using the form below, or email us directly at <a href="mailto:info@WEBSITEURL.co.za" target="_blank" rel="noopener">info@lunia.co.za</a>. You can also start a <span class="no-break"><a href="https://api.whatsapp.com/send?phone=27&text=Hi%20there" target="_blank" rel="noopener">WhatsApp chat</a>.</span></p>
+    </header>
+
+    <!-- Frame -->
+
+    <div class="frame constrain pad-x-respond pad-b-respond">
+
+        <!-- 1 -->
+
+        <form method="post" action="/cgi-sys/formmail.pl">
+            <input type="hidden" name="recipient" value="info@WEBSITEURL.co.za">
+            <input type="hidden" name="subject" value="[Message from Website]">
+            <input type="hidden" name="env_report" value="REMOTE_HOST,HTTP_USER_AGENT">
+            <input type="hidden" name="redirect" value="https://WEBSITEURL.co.za/form-to-email-success.html">
+            <div class="pad-t spread flow-ttb-mob flow-ltr-tab">
+                <input type="text" name="name" id="name" value="" placeholder="Name" tabindex="1" />
+                <input type="email" name="email" id="email" value="" placeholder="Email" tabindex="2" />
+                <select tabindex="3">
+                    <option>Select</option>
+                    <option value="v1">Option 1</option>
+                    <option value="v2">Option 2</option>
+                    <option value="v3">Option 3</option>
+                </select>
+            </div>
+            <div class="pad-y spread flow-ttb-mob flow-ltr-tab">
+                <textarea name="message" id="message" placeholder="Enter your message" rows="3"></textarea>
+            </div>
+            <div class="pad-xy border radius spread flow-ttb-mob flow-ltr-tab">
+                <div class="spread flow-ttb-mob flow-ltr-tab">
+                    <div class="justify-fs-tab spread flow-ttb-mob flow-ltr-tab">
+                        <div>
+                            <label class="switch">
+                                <input type="checkbox" id="human">
+                                <span class="slider"></span>
+                                <span class="switch-label">I'm Human</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="switch">
+                                <input type="checkbox" id="asap">
+                                <span class="slider"></span>
+                                <span class="switch-label">I'm Human</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="justify-fe-tab flow-ttb-mob flow-ltr-tab">
+                        <a class="theme-blue" id="submit" type="button" value="Send Message">Send Now</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</section>

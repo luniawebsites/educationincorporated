@@ -1,0 +1,424 @@
+body {
+	margin-top: $page-leader-height;
+}
+
+.page-leader {
+	display: block; // Text must be block level to create reliable structure
+	position: fixed;
+	width: 100%;
+	height: $page-leader-height;
+	top: 0;
+	box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.3);
+	overflow: visible;
+	z-index: 10;
+}
+
+/* Page leader brand (logo)
+---------------------------------------------------------------------------- */
+
+.page-leader__brand {
+	display: flex;
+	align-items: center;
+	width: 100%; // Declare full width to ensure flex:space-between works
+	//height: calc(#{$page-leader-height} - #{$space-fixed});
+	font-family: $font-heading;
+	text-align: left;
+	white-space: nowrap;
+	z-index: 10;
+}
+
+.page-leader__brand > a {
+}
+
+.page-leader__brand > svg {
+	width: $page-leader-brand-width;
+	cursor: pointer;
+}
+
+/* Page leader nav button
+---------------------------------------------------------------------------- */
+
+// Button extends flush with the viewport edge for maximum user tap target area
+.page-leader__nav-button {
+	outline: none;
+	background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 20 16' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M0 0h20v3H0V0zm0 6.5h20v3H0v-3zM0 13h20v3H0v-3z' fill='%23f9f9f9'/%3E%3C/svg%3E");
+	background-size: 17px 22px;
+	//background-color: rgba(255, 255, 255, 0.15); // Not enough colour contrast
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: calc(#{$space-mobile} + #{$space-mobile} + 22px);
+	height: $page-leader-height;
+	transition: all 0.1s ease-in;
+	user-select: none;
+	cursor: pointer;
+}
+
+/* Page leader links
+---------------------------------------------------------------------------- */
+
+// Hide links on mobile viewport (space restriction)
+.page-leader__links a {
+	display: none;
+}
+
+/* Page nav with Pushy
+---------------------------------------------------------------------------- */
+
+.pushy {
+	position: fixed;
+	//border-left: solid 1px rgba(255, 255, 255, 0.5);
+	background-color: $dark-grey;
+	top: 0;
+	overflow-x: hidden;
+	transition: transform 0.35s cubic-bezier(0.16, 0.68, 0.43, 0.95);
+	-webkit-overflow-scrolling: touch;
+}
+
+.pushy--top {
+	//border-right: solid 2px $light-blue;
+	width: $pushy-width;
+	height: $pushy-height;
+	top: $page-leader-height;
+	left: 0;
+	transform: translate3d(0, -$pushy-height, 0);
+}
+
+.pushy--open-top .pushy {
+	transform: translate3d(0, 0, 0);
+	box-shadow: 0 0.15rem 0.3rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.pushy--open-top .pushy__site-overlay {
+	display: block;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(28, 34, 42, 0.8);
+	animation: fade-in 0.5s;
+	z-index: 9;
+}
+
+.pushy__site-overlay {
+	display: none;
+}
+
+.page-nav {
+	display: flex;
+	flex-direction: column;
+}
+
+.page-nav__primary-container {
+	outline: none;
+	background-color: transparent;
+}
+
+.page-nav__primary-container:focus .page-nav__secondary-container {
+	max-height: 1000px; // This number is arbitrary but must exceed potential height
+	transition: max-height 0.25s ease-in;
+}
+
+.page-nav__primary-container:not(:focus) .page-nav__secondary-container {
+	max-height: 0;
+	transition: max-height 0.25s ease-out;
+}
+
+.page-nav__primary-item {
+	display: flex;
+	align-items: center;
+	border-bottom: solid 1px $border-color-dark;
+	padding-right: $space-mobile;
+	padding-left: $space-mobile;
+	height: $page-leader-height;
+	white-space: nowrap;
+	color: $grey;
+	font-family: $font-menu;
+	font-size: 1rem;
+	letter-spacing: -0.01rem;
+	cursor: pointer;
+}
+
+.page-nav__primary-item:active {
+	//color: $light-blue; // Causes annoying flash of colour when tapped on mobile
+}
+
+// Span adds a dropdown carat
+span.page-nav__primary-item:after {
+	display: block;
+	position: absolute;
+	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M4.748 3.505L8.253 0l1.243 1.243-3.505 3.505.009.009L4.757 6l-.009-.009L4.739 6 3.496 4.757l.009-.009L0 1.243 1.243 0l3.505 3.505z' fill='%23f3f3f3'/%3E%3C/svg%3E");
+	margin-right: $space-fixed;
+	right: 0;
+	width: 10px;
+	height: 6px;
+	line-height: 0;
+	//opacity: 0.7;
+}
+
+// Animate dropdown carat
+.page-nav__primary-container:focus .page-nav__primary-item:after {
+	animation: rotate-180 0.15s linear forwards;
+}
+
+.page-nav__secondary-container {
+	max-height: 0;
+	overflow: hidden;
+}
+
+.page-nav__secondary-item {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	outline: none;
+	white-space: nowrap;
+	//border-bottom: solid 1px $light-blue;
+	background-color: transparent;
+	padding-right: $space-mobile;
+	padding-left: $space-mobile;
+	height: calc(#{$page-leader-height} * 0.75);
+	color: $grey;
+	font-family: $font-menu;
+	font-size: 1rem;
+	letter-spacing: -0.01rem;
+	cursor: pointer;
+}
+
+.page-nav__secondary-item:last-child {
+	border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	/* Page leader nav button
+	---------------------------------------------------------------------------- */
+
+	.page-leader__nav-button {
+		width: calc(#{$space-tablet} + #{$space-tablet} + 22px);
+	}
+
+	/* Page nav with Pushy
+	---------------------------------------------------------------------------- */
+
+	.page-nav__primary-item {
+		padding-right: $space-tablet;
+		padding-left: $space-tablet;
+	}
+
+	.page-nav__secondary-item {
+		padding-right: $space-tablet;
+		padding-left: $space-tablet;
+	}
+
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+
+	body {
+		margin-top: 0;
+	}
+
+	.page-leader {
+		position: relative; // Browsers that support position:sticky will use the next declaration
+		position: sticky;
+	}
+
+	/* Page leader brand
+	---------------------------------------------------------------------------- */
+
+	.page-leader__brand {
+		width: auto;
+	}
+
+	.page-leader__brand > svg {
+	}
+
+	/* Page leader links
+	---------------------------------------------------------------------------- */
+
+	.page-leader__links {
+		display: flex;
+		//height: calc(#{$page-leader-height} - #{$space-fixed});
+	}
+
+	.page-leader__links > a {
+		display: block; // Text must be block level to create reliable structure
+		outline: none;
+		margin-left: $space-fixed;
+		padding-right: $space-fixed;
+		padding-left: $space-fixed;
+		white-space: nowrap;
+		color: $grey;
+		font-family: $font-menu;
+		font-size: 1rem;
+		letter-spacing: -0.01rem;
+		transition: all 0.15s ease-in;
+		cursor: pointer;
+	}
+
+	.page-leader__links > a:hover {
+		opacity: 0.7;
+	}
+
+	/* Page leader nav button
+	---------------------------------------------------------------------------- */
+
+	.page-leader__nav-button {
+		display: none;
+	}
+
+	/* Page nav with Pushy
+	---------------------------------------------------------------------------- */
+
+	.pushy {
+		position: relative; // Pushy must move with page leader
+		border: 0;
+		//background-color: transparent;
+		height: $page-leader-height;
+		width: auto;
+		margin-right: $space-desktop;
+		margin-left: $space-desktop;
+		transition: none; // Disable transition on viewport resize
+		overflow: visible;
+		transform: translate3d(0, 0, 0); // Place Pushy left
+	}
+
+	.pushy--top {
+		top: 0;
+	}
+
+	.pushy--open-top .pushy__site-overlay {
+		display: none; // Disable from mobile viewport
+	}
+
+	.pushy--open-top .pushy {
+		box-shadow: 0 0 0; // Disable from mobile viewport
+	}
+
+	.page-nav {
+		display: flex;
+		flex-direction: row;
+		//align-items: center;
+		//justify-content: flex-start;
+		//height: 100%;
+		//width: 100%;
+	}
+
+	.page-nav__primary-container {
+		background-color: transparent;
+	}
+	
+	.page-nav__primary-container:hover .page-nav__secondary-container {
+		border: solid 1px $border-color-dark;
+		max-height: 1000px; // This number is arbitrary but must exceed potential height
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+		opacity: 1;
+		animation: fade-in 0.15s linear;
+	}
+
+	.page-nav__primary-item {
+		padding-right: $space-mobile;
+		padding-left: $space-mobile;
+	}
+
+	.page-nav__secondary-item {
+		padding-right: $space-mobile;
+		padding-left: $space-mobile;
+	}
+
+	.page-nav__primary-container:not(:hover) .page-nav__secondary-container {
+		//transition: 0s; // Disable transition from mobile viewport
+	}
+
+	.page-nav__primary-item:hover {
+		color: rgba(248, 249, 249, 0.7);
+		transition: color 0.15s ease;
+	}
+
+	.page-nav__secondary-item:hover {
+		background-color: $grey;
+		transition: color 0.15s ease;
+	}
+
+	// Span and anchor are styled the same
+	span.page-nav__primary-item,
+	a.page-nav__primary-item {
+		border-bottom: 0; // Disable from mobile
+		height: $page-leader-height;
+		color: $grey;
+		font-size: 1rem;
+		letter-spacing: -0.01rem;
+		white-space: nowrap;
+		transition: opacity 0.15s ease-in;
+		cursor: pointer;
+	}
+
+	// Span adds a dropdown carat
+	span.page-nav__primary-item:after {
+		display: block;
+		position: relative;
+		content: url("data:image/svg+xml,%3Csvg viewBox='0 0 10 6' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M4.748 3.505L8.253 0l1.243 1.243-3.505 3.505.009.009L4.757 6l-.009-.009L4.739 6 3.496 4.757l.009-.009L0 1.243 1.243 0l3.505 3.505z' fill='%23f3f3f3'/%3E%3C/svg%3E");
+		margin-right: 0; // Disable from mobile viewport
+		margin-left: calc(#{$space-fixed} * 0.5);
+		right: 0;
+		width: 9px;
+		height: 5px;
+		opacity: 0.7;
+	}
+
+	// Animate dropdown carat
+	.page-nav__primary-container:hover .page-nav__primary-item:after {
+		animation: rotate-180 0.15s linear forwards;
+	}
+
+	.page-nav__secondary-container {
+		position: fixed;
+		border: solid 1px $border-color-dark;
+		border-bottom-right-radius: $radius;
+		border-bottom-left-radius: $radius;
+		background-color: $dark-grey;
+		top: calc(#{$page-leader-height} * 1);
+		opacity: 0; // Hide border when collapsed
+		overflow: hidden;
+	}
+
+	.page-nav__secondary-container > .page-nav__secondary-item {
+		padding-left: $space-fixed;
+	}
+
+	.page-nav__secondary-item {
+		// border-bottom: solid 1px $border-color-dark;
+		padding-right: calc(#{$space-fixed} * 1.2); // declare more space on right for better aesthetic
+		height: calc(#{$page-leader-height} * 0.75);
+		font-size: 1rem;
+		letter-spacing: -0.01rem;
+		transition: all 0.15s ease-in;
+		cursor: pointer;
+	}
+
+	.page-nav__secondary-item:last-of-type {
+		border-bottom: 0;
+		margin-bottom: calc(#{$space-fixed} * 0.25);
+	}
+
+	.page-nav__secondary-item:hover {
+		background-color: rgba(67, 88, 111, 0.35);
+	}
+
+	.page-nav__secondary-item:hover {
+		color: $grey;
+		opacity: 0.85;
+	}
+
+	.page-nav__secondary-item:active,
+	.page-nav__secondary-item:focus {
+		border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+	}
+
+}

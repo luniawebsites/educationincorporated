@@ -1,0 +1,19 @@
+/* TEAM */
+	Web designer: Sheldon Kennedy
+	Site: https://lunia.co.za/
+	Twitter: @LuniaWebsites
+	From: Johannesburg, South Africa
+
+/* THANKS */
+	Name: https://yandex.com/company/ (BEM syntax methodology)
+	Name: https://github.com/necolas/normalize.css
+	Name: https://www.filamentgroup.com/ (loadCSS)
+	Name: https://modernizr.com/ (compatibility testing)
+	Name: https://jakearchibald.github.io/svgomg/
+	Name: https://github.com/christophery/pushy/ (Pushy off-canvas menu)
+
+/* SITE */
+	Language: English
+	Standards: HTML5, CSS3
+	Components: Modernizr, jQuery
+	Software: VSCode, Koala, Affinity Designer, Affinity Photo, XnConvert, ImageOptim, Savage, Minify

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /submission-returns/
+Disallow: /test/
+Disallow: /testing/
+Disallow: /landing-pages/
+Disallow: /thank-you/
+Disallow: /downloads/
+Disallow: /backup*/

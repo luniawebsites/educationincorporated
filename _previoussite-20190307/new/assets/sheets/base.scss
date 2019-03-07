@@ -1,0 +1,515 @@
+// Hide scrollbar
+:-webkit-scrollbar {
+	display: none;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+// Set base font size and line height for document
+:root {
+	font-size: $root-font-size-mobile;
+	line-height: $root-line-height;
+}
+
+// Box model
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+// Opaque user selection exceptions
+input::selection,
+textarea::selection {
+	background-color: $light-blue;
+}
+
+html {
+	@include text-plain;
+	margin: 0;
+	width: 100%;
+	font-size: 16px;
+	//box-sizing: border-box; // Set box model
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-ms-overflow-style: scrollbar;
+	// -ms-user-select: none; // Remove user selection highlight
+	// user-select: none; // Remove user selection highlight
+}
+
+// Minimum viewport
+html,
+body {
+	min-width: 320px;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Smooth srolling on iOS
+html,
+body,
+div {
+	-webkit-overflow-scrolling: touch;
+}
+
+body {
+	-ms-overflow-style: scrollbar;
+}
+
+iframe,
+object {
+	border: 0;
+	width: 100%;
+}
+
+// Remove focus line
+a:focus,
+button::-moz-focus-inner {
+	outline: none;
+	border: 0;
+}
+
+/* Tables
+---------------------------------------------------------------------------- */
+
+table {
+	margin-top: calc(#{$space-mobile} * 2);
+	margin-bottom: calc(#{$space-mobile} * 2);
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+thead {
+	margin: 0;
+}
+
+tr {
+	border-radius: $radius;
+	border-bottom: solid 1px $border-color-light;
+}
+
+th:not(:th) {
+	top: 1px;
+}
+
+th,
+td {
+	position: relative;
+	vertical-align: middle;
+	padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+	text-align: left;
+	line-height: 1.5rem;
+}
+
+/* Typography
+---------------------------------------------------------------------------- */
+
+// Custom h1 is declared on hero sheet
+
+h1,
+.h1 {
+	@include text-heading;
+	margin: 0;
+	width: 100%;
+	font-size: 1.8rem;
+	line-height: 130%;
+}
+
+h2,
+.h2 {
+	@include text-heading;
+	margin: 0;
+	width: 100%;
+	font-size: 1.4rem;
+	line-height: 130%;
+}
+
+h3,
+.h3 {
+	@include text-heading;
+	margin: 0;
+	width: 100%;
+	font-size: 1.2rem;
+	line-height: 140%;
+}
+
+h4,
+.h4 {
+	@include text-heading;
+	margin: 0;
+	width: 100%;
+	font-size: 1rem;
+	line-height: 140%;
+}
+
+figcaption {
+	margin: 0;
+	width: 100%;
+	font-family: $font-heading;
+	font-size: 0.9rem;
+	text-align: $text-default-align;
+	letter-spacing: -0.005rem;
+	line-height: 140%;
+}
+
+
+p,
+q,
+blockquote {
+	@include text-plain;
+	margin: 0;
+	width: 100%;
+}
+
+strong,
+cite {
+	font-weight: bold;
+	font-style: normal;
+}
+
+ol,
+ul {
+	@include list;
+}
+
+p small {
+	font-size: 0.85rem;
+	line-height: 0.85rem;
+}
+
+sup {
+	position: relative;
+	margin-left: 0.1rem;
+	top: 0.5rem;
+	font-family: $font-plain;
+	font-size: 75%;
+	font-weight: normal;
+	line-height: 0;
+	vertical-align: top;
+}
+
+// Sibling elements spacing
+
+h1 ~ p,
+.h1 ~ p,
+h2 ~ p,
+.h2 ~ p,
+p ~ p,
+p ~ div {
+	margin-top: calc(#{$space-fixed} * 2);
+}
+
+h3 ~ p,
+.h3 ~ p,
+h4 ~ p,
+.h4 ~ p,
+h5 ~ p,
+.h5 ~ p,
+p ~ hr {
+	margin-top: $space-fixed;
+}
+
+h1 ~ h2,
+.h1 ~ .h2,
+h1 ~ h3,
+.h1 ~ .h3,
+h1 ~ h4,
+.h1 ~ .h4,
+h1 ~ h5,
+.h1 ~ .h5,
+h2 ~ h3,
+.h2 ~ .h3,
+h2 ~ h4,
+.h2 ~ .h4,
+h2 ~ h5,
+.h2 ~ .h5,
+h3 ~ h4,
+.h3 ~ .h4,
+h3 ~ h5,
+.h3 ~ .h5,
+h4 ~ h5,
+.h4 ~ .h5,
+p ~ small {
+	margin-top: 1rem;
+}
+
+/* Links
+---------------------------------------------------------------------------- */
+
+a {
+	color: inherit;
+	text-decoration: none;
+	background-color: transparent;
+	-webkit-text-decoration-skip: objects;
+}
+
+a:active {
+	color: inherit;
+}
+
+p > a,
+em > a,
+li > a {
+	border-bottom: dashed 1px $light-blue;
+	//background-color: transparent;
+	padding-bottom: 2px;
+	color: inherit;
+	text-decoration: none;
+	transition: $transition;
+	-webkit-text-decoration-skip: objects;
+}
+
+p > a:active,
+em > a:active,
+li > a:active,
+p > a:focus,
+em > a:focus,
+li > a:focus,
+em > a:hover,
+p > a:hover,
+li > a:hover {
+	color: inherit;
+}
+
+/*
+// Automatically add icon after _blank link
+a[target="_blank"]:after {
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+	margin: 0 3px 0 5px;
+}
+*/
+
+/* Callouts
+---------------------------------------------------------------------------- */
+
+em {
+	display: block;
+	clear: left;
+	margin: 2rem 0 2rem 0;
+	padding: $space-fixed;
+	font-family: $font-plain;
+	// font-weight: bold;
+	font-style: normal;
+	letter-spacing: -0.005rem;
+	text-align: left;
+	line-height: 150%;
+}
+
+/* Other elements
+---------------------------------------------------------------------------- */
+
+img {
+	vertical-align: middle;
+	border-style: none;
+}
+
+hr {
+	outline: none;
+	background-color: $border-color-light;
+	border: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 100%;
+	height: 1px;
+}
+
+// Image element alt text
+[alt] {
+	@include text-plain;
+	text-align: left;
+}
+
+/* Buttons
+---------------------------------------------------------------------------- */
+
+// Vertically align pseudo button text for all browsers
+.button > span {
+	display: block;
+}
+
+button,
+.button {
+	align-items: center;
+	justify-content: center;
+	outline: none;
+	//border: solid 2px $dark-grey;
+	border-radius: $button-radius;
+	background-color: $dark-grey; // Default colour before themed
+	padding-right: 1rem;
+	padding-left: 1rem;
+	min-width: 150px;
+	height: 45px;
+	white-space: nowrap;
+	color: $grey; // Default colour before themed
+	font-family: $font-button;
+	font-weight: normal;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 0.02rem;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+
+// Do not declare flex display for true button element (Safari)
+.button {
+	display: flex;
+}
+
+button:focus,
+.button:focus {
+	color: inherit;
+}
+
+// Inline images
+button img,
+.button img {
+	margin-right: 0.3rem;
+	padding-bottom: 0.2rem;
+	width: 1.35rem;
+	max-height: 1.75rem;
+}
+
+/* Section, header, figure, footer
+---------------------------------------------------------------------------- */
+
+header,
+section,
+figure,
+footer {
+	width: 100%;
+	overflow: hidden;
+}
+
+// Default image size
+div picture img,
+figure picture img {
+	width: 80px;
+	height: 80px;
+}
+
+img.medium {
+	width: 100px;
+	height: 100px;
+}
+
+img.large {
+	width: 120px;
+	height: 120px;
+}
+
+header .header h3,
+header .header .h3,
+figure .header h3,
+figure .header .h3,
+footer .header h3,
+footer .header .h3 {
+	//position: relative;
+	top: 1px;
+	width: 100%;
+	line-height: 1.5rem;
+	overflow: hidden;
+}
+
+/* Smallest viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (max-width: 360px) {
+
+	/* Tables
+	---------------------------------------------------------------------------- */
+
+	th,
+	td {
+		font-size: 0.85rem;
+		line-height: 1.2rem;
+	}
+
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	// Set base font size and line height for document
+	:root {
+		font-size: $root-font-size-tablet;
+	}
+
+	/* Tables
+	---------------------------------------------------------------------------- */
+
+	table {
+		margin-top: calc(#{$space-tablet} * 1);
+		margin-bottom: calc(#{$space-tablet} * 1);
+	}
+
+	/* Typography
+	---------------------------------------------------------------------------- */
+
+	// h1 is declared on hero sheet
+
+	h2,
+	.h2 {
+		font-size: 1.8rem;
+		line-height: 2.3rem;
+	}
+
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+
+	// Set base font size and line height for document
+	:root {
+		font-size: $root-font-size-desktop;
+	}
+
+	/* Typography
+	------------------------------------------------------------------------ */
+
+	h1,
+	.h1 {
+		@include text-heading;
+		margin: 0;
+		width: 100%;
+		font-size: 2.4rem;
+		line-height: 150%;
+	}
+
+	/* Links
+	------------------------------------------------------------------------ */
+
+	p > a:hover,
+	em > a:hover,
+	li > a:hover {
+		border-bottom: dashed 1px $dark-red;
+		color: inherit;
+	}
+
+	/* Tables
+	------------------------------------------------------------------------ */
+
+	table {
+		margin-top: $space-desktop;
+		margin-bottom: $space-desktop;
+	}
+
+}

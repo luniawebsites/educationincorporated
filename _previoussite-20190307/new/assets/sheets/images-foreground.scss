@@ -1,0 +1,61 @@
+/* Foreground image helpers
+---------------------------------------------------------------------------- */
+
+// Images are small by default, no need to add a helper class
+
+img.image-size-medium {
+	width: 150px;
+	height: 150px;
+}
+
+img.image-size-large {
+	width: 220px;
+	height: 220px;
+}
+
+img.image-downloads {
+	margin-bottom: $space-fixed;
+	width: auto;
+	height: 150px;
+}
+
+img.image-downloads--shift {
+	margin-left: 3rem;
+}
+
+/* Staff
+---------------------------------------------------------------------------- */
+
+.staff img {
+	//margin-bottom: calc(#{$space-fixed} * 0.5);
+	width: 110px;
+	height: 110px;
+}
+
+/* Photo strip (foreground images)
+---------------------------------------------------------------------------- */
+
+.photo-strip__image {
+	width: 100%;
+	height: 80px;
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	/* Photo strip
+	---------------------------------------------------------------------------- */
+
+	.photo-strip__image {
+		height: 150px;
+	}
+
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+}
