@@ -1,0 +1,83 @@
+/* General colours
+---------------------------------------------------------------------------- */
+
+$light-blue: rgba(88, 88, 166, 1);
+$blue: rgba(63, 67, 173, 1);
+$dark-blue: rgba(55, 55, 127, 1);
+
+$grey: rgba(246, 246, 246, 1);
+$dark-grey: rgba(32, 38, 46, 1);
+
+$red: rgba(228, 5, 33, 1);
+$dark-red: rgba(183, 13, 24, 1);
+
+$light-green: rgba(20, 180, 76, 1);
+$green: rgba(0, 163, 76, 1);
+$dark-green: rgba(0, 124, 59, 1);
+
+$light-yellow: rgba(253, 185, 51, 1);
+$yellow: rgba(247, 166, 0, 1);
+$dark-yellow: rgba(199, 136, 0, 1);
+
+$purple: rgba(82, 37, 131, 1);
+$dark-purple: rgba(68, 29, 107, 1);
+
+/* Border colours
+---------------------------------------------------------------------------- */
+
+$border-color-light: #ddd; // rgba(221, 221, 221, 1);
+$border-color-dark: #43586f; // rgba(67, 88, 111, 1);
+
+/* Accents
+---------------------------------------------------------------------------- */
+
+$accent-border-width: 4px;
+
+
+/* Fonts and text
+---------------------------------------------------------------------------- */
+
+$font-plain: "nunito", sans-serif;
+$font-heading: "montserrat-bold", sans-serif;
+$font-alt: "montserrat-medium", sans-serif;
+$font-menu: "nunito", sans-serif;
+$font-form-element: "nunito", sans-serif;
+$font-button: "montserrat-medium", sans-serif;
+$font-monospace: monospace;
+$text-default-align: center;
+
+/* Spacing and sizing
+---------------------------------------------------------------------------- */
+
+$page-leader-brand-width: 300px; // Logo in page leader
+$space-fixed: 1rem;
+$space-mobile: 1rem;
+$space-tablet: 1.5rem;
+$space-desktop: 2rem;
+$spread-space-fixed: 1rem;
+$spread-space-mobile: 1rem;
+$spread-space-tablet: 1.5rem;
+$spread-space-desktop: 2rem;
+$height-form-element: 2.8rem;
+$max-width: 1000px;
+$radius: 5px;
+$button-radius: 5px;
+
+/* Page nav with Pushy
+---------------------------------------------------------------------------- */
+
+$pushy-width: 100vw;
+$pushy-height: 100vh; // Use vh or Edge mobile and Opera mobile will leave a gap
+
+/* Lists with icons
+---------------------------------------------------------------------------- */
+
+$list-icon-width: 30px;
+$list-icon-height: 30px;
+
+/* Misc
+---------------------------------------------------------------------------- */
+
+$shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+$scale-up: scale(1.075);
+$transition: all 0.15s ease;

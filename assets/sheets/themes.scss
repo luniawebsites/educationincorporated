@@ -1,0 +1,791 @@
+/* Font colours
+---------------------------------------------------------------------------- */
+
+.font-red {
+	color: $red;
+}
+
+.font-green {
+	color: $green;
+}
+
+.font-yellow {
+	color: $yellow;
+}
+
+.font-purple {
+	color: $purple;
+}
+
+/* Base themes for sections, containers and table cells
+---------------------------------------------------------------------------- */
+
+.theme-white, td.theme-white {
+	background-color: #fff;
+	color: $dark-grey;
+}
+
+.theme-grey, td.theme-grey {
+	background-color: $grey;
+	color: $dark-grey;
+}
+
+.theme-dark-grey, td.theme-dark-grey {
+	background-color: $dark-grey;
+	color: $grey;
+}
+
+.theme-dark-red, td.theme-dark-red {
+	background-color: $dark-red;
+	color: $grey;
+}
+
+.theme-dark-blue, td.theme-dark-blue {
+	background-color: $dark-blue;
+	color: $grey;
+}
+.theme-dark-green, td.theme-dark-green {
+	background-color: $dark-green;
+	color: $grey;
+}
+
+.theme-dark-yellow, td.theme-dark-yellow {
+	background-color: $dark-yellow;
+	color: $dark-grey;
+}
+
+/* Page footer
+---------------------------------------------------------------------------- */
+
+footer.theme-dark-grey div {
+	border-color: rgba(249, 249, 249, 0.35);
+	line-height: 2.3rem;
+}
+
+footer.theme-dark-grey p,
+footer.theme-dark-grey a,
+footer.theme-dark-grey li {
+	color: rgba(249, 249, 249, 0.7);
+	font-size: 0.95rem;
+	line-height: 1.25rem;
+	transition: $transition;
+}
+
+footer.theme-dark-grey h4,
+footer.theme-dark-grey .h4 {
+	color: rgba(249, 249, 249, 0.7);
+}
+
+/* Underline text
+---------------------------------------------------------------------------- */
+
+@mixin text-underline {
+	content: "";
+	display: block;
+	position: relative;
+	margin: calc(#{$space-fixed} * 1) 0 0 0;
+	width: 20%;
+	height: 2px;
+	left: 40%;
+}
+
+.text-l-mob.text-underline:after,
+.text-c-mob.text-underline:after,
+.text-r-mob.text-underline:after {
+	width: 100%;
+	height: 3px;
+	left: 0;
+}
+
+// Colours
+
+.text-underline-grey:after {
+	@include text-underline;
+	background-color: $grey;
+}
+
+.text-underline-red:after {
+	@include text-underline;
+	background-color: $red;
+}
+
+/* Buttons
+---------------------------------------------------------------------------- */
+
+// Make effects smooth
+button,
+a[type="button"],
+a.button {
+	transition: all 0.15s ease-in-out;
+}
+
+// Blue
+
+button.theme-blue,
+a[type="button"].theme-blue,
+a.button.theme-blue {
+	border: solid 2px $light-blue;
+	background-color: $dark-blue;
+	color: $grey;
+}
+
+// Active
+button.theme-blue:active,
+a[type="button"].theme-blue:active,
+a.button.theme-blue:active {
+	border: solid 2px $light-blue;
+	background-color: $light-blue;
+	color: $grey;
+}
+
+// Green
+
+button.theme-green,
+a[type="button"].theme-green,
+a.button.theme-green {
+	border: solid 2px $light-green;
+	background-color: $green;
+	color: $grey;
+}
+
+// Active
+button.theme-green:active,
+a[type="button"].theme-green:active,
+a.button.theme-green:active {
+	border: solid 2px $light-green;
+	background-color: $light-green;
+	color: $grey;
+}
+
+// Yellow
+
+button.theme-yellow,
+a[type="button"].theme-yellow,
+a.button.theme-yellow {
+	border: solid 2px $light-yellow;
+	background-color: $yellow;
+	color: $grey;
+}
+
+// Active
+button.theme-yellow:active,
+a[type="button"].theme-yellow:active,
+a.button.theme-yellow:active {
+	border: solid 2px $light-yellow;
+	background-color: $light-yellow;
+	color: $grey;
+}
+
+/* Emphasis accents
+---------------------------------------------------------------------------- */
+
+// Used as a callout (semantically more correct than using blockquote)
+
+em.accent-blue {
+	border-left: solid $accent-border-width $blue;
+}
+
+/* Background image accents (border moves position based on flow)
+---------------------------------------------------------------------------- */
+
+// These styles will override other border styles, such as border-b-mob
+
+// Light grey
+
+.flow-ttb-mob > .accent-grey.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $grey;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-grey.image-background {
+	border-top: 0;
+	border-right: solid $accent-border-width $grey;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-grey.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $grey;
+}
+
+// Dark grey
+
+.flow-ttb-mob > .accent-dark-grey.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $dark-grey;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-dark-grey.image-background {
+	border-top: 0;
+	border-right: solid $accent-border-width $dark-grey;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-dark-grey.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $dark-grey;
+}
+
+// Dark red
+
+.flow-ttb-mob > .accent-dark-red.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $dark-red;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-dark-red.image-background {
+	border-top: 0;
+	border-right: solid $accent-border-width $dark-red;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-dark-red.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $dark-red;
+}
+
+// Dark blue
+
+.flow-ttb-mob > .accent-dark-blue.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $dark-blue;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-dark-blue.image-background {
+	border-top: 0;
+	border-right: solid $accent-border-width $dark-blue;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-dark-blue.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $dark-blue;
+}
+
+// Dark green
+
+.flow-ttb-mob > .accent-dark-green.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $dark-green;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-dark-green.image-background {
+	border-top: 0;
+	border-right: solid $accent-border-width $dark-green;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-dark-green.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $dark-green;
+}
+
+// Dark yellow
+
+.flow-ttb-mob > .accent-dark-yellow.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $dark-yellow;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-dark-yellow.image-background {
+	border-top: 0;
+	border-right: solid $accent-border-width $dark-yellow;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-dark-yellow.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $dark-yellow;
+}
+
+// Dark purple
+
+.flow-ttb-mob > .accent-dark-purple.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: solid $accent-border-width $dark-purple;
+	border-left: 0;
+}
+
+.flow-ltr-mob > .accent-dark-purple.image-background {
+	border-top: 0;
+	border-right: solid $accent-border-width $dark-purple;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+.flow-rtl-mob > .accent-dark-purple.image-background {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: solid $accent-border-width $dark-purple;
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	/* Underline text
+	---------------------------------------------------------------------------- */
+
+	.text-underline:after {
+		margin: calc(#{$space-mobile} * 1) 0 0 0;
+	}
+
+	.text-l-mob.text-underline:after,
+	.text-l-tab.text-underline:after {
+		width: 20%;
+		height: 3px;
+		left: 0;
+	}
+
+	.text-c-mob.text-underline:after,
+	.text-c-tab.text-underline:after {
+		width: 20%;
+		height: 3px;
+		left: 40%;
+	}
+
+	.text-r-mob.text-underline:after,
+	.text-r-tab.text-underline:after {
+		width: 20%;
+		height: 3px;
+		left: 80%;
+	}
+
+	/* Background image accents
+	---------------------------------------------------------------------------- */
+
+	// Light grey
+
+	.flow-ttb-tab > .accent-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $grey;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-grey.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $grey;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $grey;
+	}
+
+	// Dark grey
+
+	.flow-ttb-tab > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-grey;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-grey;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-grey;
+	}
+
+	// Dark red
+
+	.flow-ttb-tab > .accent-dark-red.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-red;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-dark-red.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-red;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-dark-red.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-red;
+	}
+
+	// Dark blue
+
+	.flow-ttb-tab > .accent-dark-blue.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-blue;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-dark-blue.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-blue;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-dark-blue.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-blue;
+	}
+
+	// Dark green
+
+	.flow-ttb-tab > .accent-dark-green.image-background{
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-green;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-dark-green.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-green;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-dark-green.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-green;
+	}
+
+	// Dark yellow
+
+	.flow-ttb-tab > .accent-dark-yellow.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-yellow;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-dark-yellow.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-yellow;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-dark-yellow.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-yellow;
+	}
+
+	// Dark purple
+
+	.flow-ttb-tab > .accent-dark-purple.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-purple;
+		border-left: 0;
+	}
+
+	.flow-ltr-tab > .accent-dark-purple.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-purple;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-tab > .accent-dark-purple.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-purple;
+	}
+
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+
+	/* Page footer
+	---------------------------------------------------------------------------- */
+
+	footer.theme-dark-grey li a:hover {
+		color: rgba(249, 249, 249, 1);
+	}
+
+	/* Underline text
+	---------------------------------------------------------------------------- */
+
+	.text-underline:after {
+		margin: calc(#{$space-mobile} * 1) 0 0 0;
+	}
+
+	.text-l-mob.text-underline:after,
+	.text-l-tab.text-underline:after,
+	.text-l-des.text-underline:after {
+		width: 20%;
+		height: 3px;
+		left: 0;
+	}
+
+	.text-c-mob.text-underline:after,
+	.text-c-tab.text-underline:after,
+	.text-c-des.text-underline:after {
+		width: 20%;
+		height: 3px;
+		left: 40%;
+	}
+
+	.text-r-mob.text-underline:after,
+	.text-r-tab.text-underline:after,
+	.text-r-des.text-underline:after {
+		width: 20%;
+		height: 3px;
+		left: 80%;
+	}
+
+	/* Buttons
+	---------------------------------------------------------------------------- */
+
+	// Blue
+	button.theme-blue:hover,
+	a[type="button"].theme-blue:hover,
+	a.button.theme-blue:hover {
+		border: solid 2px $light-blue;
+		background-color: $light-blue;
+		color: $grey;
+	}
+
+	// Green
+	button.theme-green:hover,
+	a[type="button"].theme-green:hover,
+	a.button.theme-green:hover {
+		border: solid 2px $light-green;
+		background-color: $light-green;
+		color: $grey;
+	}
+
+	// Yellow
+	button.theme-yellow:hover,
+	a[type="button"].theme-yellow:hover,
+	a.button.theme-yellow:hover {
+		border: solid 2px $light-yellow;
+		background-color: $light-yellow;
+		color: $grey;
+	}
+
+	
+	/* Background image accents
+	---------------------------------------------------------------------------- */
+
+	// Light grey
+
+	.flow-ttb-des > .accent-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $grey;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-grey.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $grey;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $grey;
+	}
+
+	// Dark grey
+
+	.flow-ttb-des > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-grey;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-grey;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-dark-grey.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-grey;
+	}
+
+	// Dark red
+
+	.flow-ttb-des > .accent-dark-red.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-red;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-dark-red.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-red;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-dark-red.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-red;
+	}
+
+	// Dark blue
+
+	.flow-ttb-des > .accent-dark-blue.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-blue;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-dark-blue.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-blue;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-dark-blue.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-blue;
+	}
+
+	// Dark green
+
+	.flow-ttb-des > .accent-dark-green.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-green;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-dark-green.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-green;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-dark-green.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-green;
+	}
+
+	// Dark yellow
+
+	.flow-ttb-des > .accent-dark-yellow.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-yellow;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-dark-yellow.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-yellow;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-dark-yellow.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-yellow;
+	}
+
+	// Dark purple
+
+	.flow-ttb-des > .accent-dark-purple.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: solid $accent-border-width $dark-purple;
+		border-left: 0;
+	}
+
+	.flow-ltr-des > .accent-dark-purple.image-background {
+		border-top: 0;
+		border-right: solid $accent-border-width $dark-purple;
+		border-bottom: 0;
+		border-left: 0;
+	}
+
+	.flow-rtl-des > .accent-dark-purple.image-background {
+		border-top: 0;
+		border-right: 0;
+		border-bottom: 0;
+		border-left: solid $accent-border-width $dark-purple;
+	}
+
+}

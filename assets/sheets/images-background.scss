@@ -1,0 +1,309 @@
+/* Background image helpers
+---------------------------------------------------------------------------- */
+
+.image-background {
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+
+/* Background images
+---------------------------------------------------------------------------- */
+
+// hero
+
+.webp .image-hero {
+	background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.7), rgba(28, 34, 42, 0.7)), url("images/photos/mobile/hero--ratio-1-1.webp");
+	background-position: center center;
+	background-size: cover;
+}
+
+.no-webp .image-hero {
+	background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.7), rgba(28, 34, 42, 0.7)), url("images/photos/mobile/hero--ratio-1-1.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+
+/* Our students
+---------------------------------------------------------------------------- */
+
+// our-students__two-girls-holding-awards
+
+.webp .our-students__two-girls-holding-awards {
+	background: url("images/photos/our-students__two-girls-holding-awards.webp");
+	background-position: center top;
+	background-size: cover;
+}
+
+.no-webp .our-students__two-girls-holding-awards {
+	background: url("images/photos/our-students__two-girls-holding-awards.jpg");
+	background-position: center top;
+	background-size: cover;
+}
+
+// our-students__boy-sitting-with-notebook
+
+.webp .our-students__boy-sitting-with-notebook {
+	background: url("images/photos/our-students__boy-sitting-with-notebook.webp");
+	background-position: center top;
+	background-size: cover;
+}
+
+.no-webp .our-students__boy-sitting-with-notebook {
+	background: url("images/photos/our-students__boy-sitting-with-notebook.jpg");
+	background-position: center top;
+	background-size: cover;
+}
+
+// our-students__two-students-playing_guitar
+
+.webp .our-students__two-students-playing-guitar {
+	background: url("images/photos/our-students__two-students-playing-guitar.webp");
+	background-position: center top;
+	background-size: cover;
+}
+
+.no-webp .our-students__two-students-playing-guitar {
+	background: url("images/photos/our-students__two-students-playing-guitar.jpg");
+	background-position: center top;
+	background-size: cover;
+}
+
+// our_students__girl-karate
+
+.webp .our_students__girl-karate {
+	background: url("images/photos/our_students__girl-karate.jpg");
+	background-position: center top;
+	background-size: cover;
+}
+
+.no-webp .our_students__girl-karate {
+	background: url("images/photos/our_students__girl-karate.jpg");
+	background-position: center top;
+	background-size: cover;
+}
+
+// our-students__boy-reading-in-tree
+
+.webp .our-students__boy-reading-in-tree {
+	background: url("images/photos/our-students__boy-reading-in-tree.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+.no-webp .our-students__boy-reading-in-tree {
+	background: url("images/photos/our-students__boy-reading-in-tree.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+/* Photo strip
+---------------------------------------------------------------------------- */
+
+// four-students-outdoors
+
+.webp .photo-strip__three-boys-smiling {
+	display: block;
+	background: url("images/photos/mobile/photo-strip__three-boys-smiling.webp");
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.no-webp .photo-strip__three-boys-smiling {
+	display: block;
+	background: url("images/photos/mobile/photo-strip__three-boys-smiling.jpg");
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+// three-chemistry-students
+
+.webp .photo-strip__three-chemistry-students {
+	display: block;
+	background: url("images/photos/mobile/photo-strip__three-chemistry-students.webp");
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.no-webp .photo-strip__three-chemistry-students {
+	display: block;
+	background: url("images/photos/mobile/photo-strip__three-chemistry-students.jpg");
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+// children-listening-to-teacher
+
+.webp .photo-strip__children-listening-to-teacher {
+	display: block;
+	background: url("images/photos/mobile/photo-strip__children-listening-to-teacher.webp");
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.no-webp .photo-strip__children-listening-to-teacher {
+	display: block;
+	background: url("images/photos/mobile/photo-strip__children-listening-to-teacher.jpg");
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+// two-students-hugging
+
+.webp .photo-strip__two-students-hugging {
+	display: block;
+	background: url("images/photos/mobile/photo-strip__two-students-hugging.webp");
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.no-webp .photo-strip__two-students-hugging {
+	display: block;
+	background: url("images/photos/mobile/photo-strip__two-students-hugging.jpg");
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+/* Tablet viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-tablet) {
+
+	/* Background image helpers
+	---------------------------------------------------------------------------- */
+
+	.image-background,
+	.image-background,
+	.image-background {
+		height: 280px; // Minimum height for background images
+	}
+
+	/* Background images
+	---------------------------------------------------------------------------- */
+
+	// Hero
+
+	.webp .image-hero {
+		background: linear-gradient(0.35turn, rgba(0, 0, 0, 0.5), rgba(28, 34, 42, 0.5)), url("images/photos/tablet/hero--ratio-3-2.webp");
+		background-position: center center;
+		background-size: cover;
+	}
+	
+	.no-webp .image-hero {
+		background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.5), rgba(28, 34, 42, 0.5)), url("images/photos/tablet/hero--ratio-3-2.jpg");
+		background-position: center center;
+		background-size: cover;
+	}
+
+	/* Our students
+	---------------------------------------------------------------------------- */
+
+
+	/* Photo strip
+	---------------------------------------------------------------------------- */
+
+	// four-students-outdoors
+
+	.webp .photo-strip__three-boys-smiling {
+		display: block;
+		background: url("images/photos/tablet/photo-strip__three-boys-smiling.webp");
+		background-position: center center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	.no-webp .photo-strip__three-boys-smiling {
+		display: block;
+		background: url("images/photos/tablet/photo-strip__three-boys-smiling.jpg");
+		background-position: center center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	// three-chemistry-students
+
+	.webp .photo-strip__three-chemistry-students {
+		display: block;
+		background: url("images/photos/tablet/photo-strip__three-chemistry-students.webp");
+		background-position: center center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	.no-webp .photo-strip__three-chemistry-students {
+		display: block;
+		background: url("images/photos/tablet/photo-strip__three-chemistry-students.jpg");
+		background-position: center center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	// children-listening-to-teacher
+
+	.webp .photo-strip__children-listening-to-teacher {
+		display: block;
+		background: url("images/photos/tablet/photo-strip__children-listening-to-teacher.webp");
+		background-position: center center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	.no-webp .photo-strip__children-listening-to-teacher {
+		display: block;
+		background: url("images/photos/tablet/photo-strip__children-listening-to-teacher.jpg");
+		background-position: center center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	// two-students-hugging
+
+	.webp .photo-strip__two-students-hugging {
+		display: block;
+		background: url("images/photos/tablet/photo-strip__two-students-hugging.webp");
+		background-position: center center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+	.no-webp .photo-strip__two-students-hugging {
+		display: block;
+		background: url("images/photos/tablet/photo-strip__two-students-hugging.jpg");
+		background-position: center center;
+		background-size: cover;
+		width: 100%;
+		height: 100%;
+	}
+
+}
+
+/* Desktop viewport
+---------------------------------------------------------------------------- */
+
+@media screen and (min-width: $viewport-desktop) {
+}

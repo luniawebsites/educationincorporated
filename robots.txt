@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /sheets/
+Disallow: /*.scss$
+Disallow: /*.md$
+
+User-agent: Googlebot
+Disallow: /sheets/
+Disallow: /*.scss$
+Disallow: /*.md$
+
+User-agent: Googlebot-Mobile
+Disallow: /sheets/
+Disallow: /*.scss$
+Disallow: /*.md$
+
+User-agent: Googlebot-Image
+Disallow: /sheets/
+Disallow: /*.scss$
+Disallow: /*.md$
+
+Sitemap: http://educationincorporated.co.za//sitemap.xml
