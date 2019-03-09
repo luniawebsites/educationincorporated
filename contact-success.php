@@ -97,16 +97,6 @@
 	-->
 	<?php echo file_get_contents("assets/partials/page-footer.html"); ?>
 
-	<!--
-	PARTIAL > Schema
-	-->
-	<?php echo file_get_contents("assets/partials/schema.html"); ?>
-
-	<!--
-	HTML > Preload elements
-	-->
-	<!--<span class="preload-me"></span>-->
-
 </body>
 
 </html>
