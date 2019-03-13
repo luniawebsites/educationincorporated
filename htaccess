@@ -5,6 +5,9 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [L]
 
+## Redirects to external URLs ##
+Redirect 301 /podcast.html https://solidgoldstudios.co.za/eduthink
+
 ## Redirects to thank you pages ##
 Redirect 301 /submission-returns/tyappsubmitted.html /thank-you-tour.php
 Redirect 301 /submission-returns/tyoptinbook01aaw.html /thank-you-book.php
