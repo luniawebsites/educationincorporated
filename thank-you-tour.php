@@ -84,7 +84,8 @@
 				<!--
 				Main content
 				-->
-				<p></p>
+				<p>One of our team will contact you shortly to confirm a date and time when you can come in and see our school for yourself. If you haven't already done so, We recommend you download our prospectus and book so that you already know more about us and can ask questions that are specific to your needs and concerns.</p>
+				<p>Thank you for your interest in EduInc, we look forward to meeting you soon.</p>
 
 			</div>
 
