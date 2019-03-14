@@ -77,14 +77,14 @@
 		-->
 		<section class="pad-respond-xy-mob theme-white border-b-mob shadow-t-mob">
 		
-			<h1 class="pad-respond-t-mob text-underline-red">Thank you for downloading our prospectus</h1>
+			<h1 class="pad-respond-t-mob text-underline-red">Our prospectus is on its way</h1>
 
 			<div class="flow-ttb-mob flow-ltr-tab constrain pad-respond-y-mob align-fs-tab">
 
 				<!--
 				Main content
 				-->
-				<p>Please take a few more minutes to explore our site and see what a school with such small classes can do for your child.</p>
+				<p>Thank you for your interest in our school. As an anti-spam measure, a confirmation mail is on its way to you. Please click the link in that mail and you'll imemdiately receive the download link for our prospectus. While you wait, perhaps take a few more minutes to explore our site and see what a school with such small classes can do for your child. You can also download our book and book a tour.</p>
 
 			</div>
 

@@ -84,7 +84,7 @@
 				<!--
 				Main content
 				-->
-				<p>One of our team will contact you shortly to confirm a date and time when you can come in and see our school for yourself. If you haven't already done so, we recommend you download our prospectus and book (you can even listen to a few of our podcast episodes) so that you already know more about us and can ask questions that are specific to your needs and concerns. We look forward to meeting you and assisting your family.</p>
+				<p>One of our team will contact you shortly to confirm a date and time when you can come in and see our school for yourself. This will usually be the same day, or else the morning of the first working day after you submitted your request. If something goes awry and you haven't heard from us by mid-morning, please call 011 467 8015 and ask Mr. Garridigan to assist you. Before your visit, we recommend you download our prospectus and book (you can even listen to a few of our podcast episodes) so that you already know more about us and can ask questions that are specific to your needs and concerns. We look forward to meeting you and assisting your family.</p>
 
 			</div>
 

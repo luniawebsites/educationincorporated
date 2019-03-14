@@ -84,7 +84,7 @@
 				<!--
 				Main content
 				-->
-				<p></p>
+				<p>Depending on our current staffing requirements, you may not hear from us imemdiately. However, your CV and details are safely on file and we'll be sure to look here first when any other positions become available. If we do contact you in future, it will be extremely useful if you've already read our book and prospectus (or even listened to some of our podcasts). Thank you for your interest in joining our boutique school.</p>
 
 			</div>
 
