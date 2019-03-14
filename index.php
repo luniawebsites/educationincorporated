@@ -176,11 +176,14 @@
 				-->
 
 				<figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
+
 					<span class="bg-c-c-mob bg-l-c-tab icon-vision"></span>
+
 					<div class="grow pad-t-mob text-c-mob text-l-tab">
 						<h3>Our Vision</h3>
 						<p>Every child will leave us as an independent, confident, thinking young adult with the best (and most meaningful) Matric they can achieve, ready to follow their dreams and shape the future.</p>
-						</div>
+					</div>
+
 				</figure>
 
 				<!--
@@ -188,11 +191,14 @@
 				-->
 
 				<figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
+
 					<span class="bg-c-c-mob bg-l-c-tab icon-mission"></span>
+
 					<div class="grow pad-t-mob text-c-mob text-l-tab">
 						<h3>Our Mission</h3>
 						<p>To grow children through unwavering adherence to our core values into the thought-leaders of the future.</p>
-						</div>
+					</div>
+
 				</figure>
 
 			</div>
@@ -208,11 +214,14 @@
 				-->
 
 				<figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
+
 					<span class="bg-c-c-mob bg-l-c-tab icon-method"></span>
+
 					<div class="grow pad-t-mob text-c-mob text-l-tab">
 						<h3>Our Method</h3>
 						<p>We open and operate boutique schools with an unwavering commitment to high academic standards.</p>
 						</div>
+
 				</figure>
 
 				<!--
@@ -220,20 +229,17 @@
 				-->
 
 				<figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
-					<span class="bg-c-c-mob bg-l-c-tab icon-values"></span>
-					<div class="width-100-mob grow pad-t-mob text-c-mob text-l-tab">
-						<h3>Our Values</h3>
-						
-						<div class="pad-t-mob">
-							<iframe title="our values" src="https://tunein.com/embed/player/t127017337/" style="width:100%; height:100px;" scrolling="no" frameborder="no"></iframe>
-						</div>
 
-						<!--
-						<audio controls class="width-100-mob margin-respond-t-mob">
-							<source src="https://tunein.com/embed/player/t127017337/" type="audio/mpeg">
-						Your browser does not support the audio element.
-						</audio>
-						-->
+					<span class="bg-c-c-mob bg-l-c-tab icon-values"></span>
+
+					<div class="width-100-mob grow pad-t-mob text-c-mob text-l-tab">
+
+						<h3>Our Values</h3>
+
+						<!-- Audio clip -->
+						<div class="margin-y-mob">
+							<audio style="width:100%" controls src="https://podcaststudios.co.za/audio/eduinc/edu-inc-radio-ad-01.mp3" type="audio/mpeg" controlsList="nodownload"></audio>
+						</div>
 
 					</div>
 				</figure>
@@ -258,9 +264,12 @@
 			-->
 
 			<header class="constrain pad-respond-y-mob">
+
 				<h2 class="text-underline-red">School Accreditations</h2>
+
 				<p>Education Incorporated is registered with the Gauteng Department of Education (JN700400746), Independent Examinations Board (IEB), Independent Schools Association of Southern Africa (ISASA) and Council for Quality Assurance in General and Further Education and <span class="no-break">Training (Umalusi)</span>.
 				</p>
+
 			</header>
 
 			<!--
@@ -407,7 +416,9 @@
 				-->
 
 				<a class="width-100-mob" href="landing-1-article.php#soretummiesandotheranxieties" aria-label="sore tummies">
+
 					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__teacher-student-talking.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__teacher-student-talking.jpg" alt="teacher talking to student" />
@@ -416,7 +427,9 @@
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">Sore tummies and other anxieties</div>
 						</div>
+
 					</figure>
+
 				</a>
 
 				<!--
@@ -424,15 +437,20 @@
 				-->
 
 				<a class="width-100-mob" href="landing-1-article.php#caniaffordyourfees" aria-label="can I afford your fees?">
+
 					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__two-children-on-floor-playing-game.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__two-children-on-floor-playing-game.jpg" alt="two children on floor playing a game" />
 						</picture>
+
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">Can I afford your fees?</div>
 						</div>
+
 					</figure>
+
 				</a>
 
 			</div>
@@ -448,15 +466,20 @@
 				-->
 
 				<a class="width-100-mob" href="landing-1-article.php#ismychildunhappyatschool" aria-label="is my child unhappy at school?">
+
 					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__two-students-hugging.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__two-students-hugging.jpg" alt="two students hugging" />
 						</picture>
+
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">Is my child unhappy at school?</div>
 						</div>
+
 					</figure>
+
 				</a>
 
 				<!--
@@ -464,15 +487,20 @@
 				-->
 
 				<a class="width-100-mob" href="landing-3-article.php#areyouamainstreamschool" aria-label="Are you a mainstream school?">
+
 					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__children-science-class.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__children-science-class.jpg" alt="children in science class" />
 						</picture>
+
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">Are you a mainstream school?</div>
 						</div>
+
 					</figure>
+
 				</a>
 
 			</div>
@@ -488,15 +516,20 @@
 				-->
 
 				<a class="width-100-mob" href="#pagefooter" aria-label="where is education incorporated situated?">
+
 					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__map.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__map.jpg" alt="where is education incorporated situated?" />
 						</picture>
+
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">Where is Education Incorporated situated?</div>
 						</div>
+
 					</figure>
+
 				</a>
 
 				<!--
@@ -504,15 +537,20 @@
 				-->
 
 				<a class="width-100-mob" href="landing-1-article.php#doyouhavespaceformychild" aria-label="do you have space for my child?">
+
 					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__four-students-outdoors.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__four-students-outdoors.jpg" alt="campus with lawn" />
 						</picture>
+
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">Do you have space for my child?</div>
 						</div>
+
 					</figure>
+
 				</a>
 
 			</div>
@@ -528,15 +566,20 @@
 				-->
 
 				<a class="width-100-mob" href="landing-2-article.php#whatdoyoureallymeanbysmallclasses" aria-label="what do you really mean by small classes?">
+
 					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__smiling-children-biology-class.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__smiling-children-biology-class.jpg" alt="smiling children in biology class" />
 						</picture>
+
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">What do you really mean by "small classes"?</div>
 						</div>
+
 					</figure>
+
 				</a>
 
 				<!--
@@ -544,15 +587,20 @@
 				-->
 
 				<a class="width-100-mob" href="landing-2-article.php#doessmallclassesmeanremedial" aria-label="does small classes mean remedial?">
+
 					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__girl-watching-snail.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__girl-watching-snail.jpg" alt="children in science class" />
 						</picture>
+
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">Does "small classes" mean remedial?</div>
 						</div>
+
 					</figure>
+
 				</a>
 
 			</div>
@@ -568,14 +616,18 @@
 				-->
 
 				<a class="width-100-mob" href="landing-3-article.php#whydidyounameyourschooleducationincorporated" aria-label="why did you name your school education incorporated?">
+
 					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__campus-with-pool.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__campus-with-pool.jpg" alt="campus with swimming pool" />
 						</picture>
+
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">Why did you name your school Education Incorporated?</div>
 						</div>
+
 					</figure>
 
 				</a>
@@ -585,15 +637,20 @@
 				-->
 
 				<a class="width-100-mob" href="landing-1-article.php#whatdoyoumeanbyboutiqueschool" aria-label="what do you mean by boutique school?">
+
 						<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__children-listening-to-teacher.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__children-listening-to-teacher.jpg" alt="children listening to teacher" />
 						</picture>
+
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">What do you mean by "boutique school"?</div>
 						</div>
+
 					</figure>
+
 				</a>
 
 			</div>
@@ -609,14 +666,18 @@
 				-->
 
 				<a class="width-100-mob" href="landing-2-article.php#doesmychildhavethepotentialyourelookingfor" aria-label="why did you name your school education incorporated?">
+
 					<figure class="card-link flow-ttb-mob flow-ltr-des width-50-tab pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+
 						<picture>
 							<source srcset="assets/images/photos/faq__grade-6-class-photo-on-chairs.webp" type="image/webp" />
 							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__grade-6-class-photo-on-chairs.jpg" alt="grade 6 class photo sitting on chairs" />
 						</picture>
+
 						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
 							<div class="h3 text-c-mob text-l-des">Does my child have the potential you're looking for?</div>
 						</div>
+
 					</figure>
 
 				</a>
@@ -638,6 +699,7 @@
 			<header class="constrain pad-x-mob pad-respond-y-mob">
 
 				<h2 class="text-underline-red">Our Students</h2>
+
 				<p>When a child begins their educational journey with us we understand that it is precisely that&mdash;a journey. A long-term process of individualised, whole-child development where potential can be discovered and honed. Where responsible, respectful value systems can be instilled, preparing each child for the world they will encounter after their time with us.</p>
 
 			</header>
@@ -773,11 +835,15 @@
 			-->
 
 			<header class="constrain pad-y-mob">
+
 				<h2 class="text-underline-red">School Houses</h2>
+
 				<p>Each new student completes a questionnaire that determines which of four Houses, named for flying mythological creatures, they will be allocated to. They are then issued a pin to wear on their uniform to indicate their House.</p>
+
 				<div class="footer">
 					<a href="houses.php" aria-label="school houses"><button class="theme-blue" aria-label="button">Learn More</button></a>
 				</div>
+
 			</header>
 
 			<!--
@@ -793,6 +859,7 @@
 				<figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
 
 					<div class="house__griffin-image"></div>
+
 					<div class="house__griffin-name"></div>
 
 					<div class="flex-grow pad-xy-mob">
@@ -808,6 +875,7 @@
 				<figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
 
 					<div class="house__dragon-image"></div>
+
 					<div class="house__dragon-name"></div>
 
 					<div class="flex-grow pad-xy-mob">
@@ -823,6 +891,7 @@
 				<figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
 
 					<div class="house__pegasus-image"></div>
+
 					<div class="house__pegasus-name"></div>
 
 					<div class="flex-grow pad-xy-mob">
@@ -838,6 +907,7 @@
 				<figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
 
 					<div class="house__phoenix-image"></div>
+
 					<div class="house__phoenix-name"></div>
 
 					<div class="flex-grow pad-xy-mob">
