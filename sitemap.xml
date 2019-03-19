@@ -1,127 +1,131 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+<urlset xmlns='https://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://educationincorporated.co.za/about.php</loc>
+        <loc>https://educationincorporated.co.za/about.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/academics.php</loc>
+        <loc>https://educationincorporated.co.za/academics.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/activities.php</loc>
+        <loc>https://educationincorporated.co.za/activities.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/admissions.php</loc>
+        <loc>https://educationincorporated.co.za/additional_info_request_form.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/awards.php</loc>
+        <loc>https://educationincorporated.co.za/admissions.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/campus.php</loc>
+        <loc>https://educationincorporated.co.za/awards.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/creatives.php</loc>
+        <loc>https://educationincorporated.co.za/campus.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/curriculum.php</loc>
+        <loc>https://educationincorporated.co.za/creatives.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/entrepreneurs.php</loc>
+        <loc>https://educationincorporated.co.za/curriculum.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/experiential-learning.php</loc>
+        <loc>https://educationincorporated.co.za/entrepreneurs.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/fees.php</loc>
+        <loc>https://educationincorporated.co.za/experiential-learning.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/houses.php</loc>
+        <loc>https://educationincorporated.co.za/fees.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/index.php</loc>
+        <loc>https://educationincorporated.co.za/houses.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/individuals.php</loc>
+        <loc>https://educationincorporated.co.za/index.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/join-team.php</loc>
+        <loc>https://educationincorporated.co.za/individuals.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-1-article.php</loc>
+        <loc>https://educationincorporated.co.za/join-team.php</loc>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://educationincorporated.co.za/landing-1-article.php</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-1-book-form.php</loc>
+        <loc>https://educationincorporated.co.za/landing-1-book-form.php</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-1-prospectus-form.php</loc>
+        <loc>https://educationincorporated.co.za/landing-1-prospectus-form.php</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-2-article.php</loc>
+        <loc>https://educationincorporated.co.za/landing-2-article.php</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-2-book-form.php</loc>
+        <loc>https://educationincorporated.co.za/landing-2-book-form.php</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-2-prospectus-form.php</loc>
+        <loc>https://educationincorporated.co.za/landing-2-prospectus-form.php</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-3-article.php</loc>
+        <loc>https://educationincorporated.co.za/landing-3-article.php</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-3-book-form.php</loc>
+        <loc>https://educationincorporated.co.za/landing-3-book-form.php</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-3-prospectus-form.php</loc>
+        <loc>https://educationincorporated.co.za/landing-3-prospectus-form.php</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-book-form.php</loc>
+        <loc>https://educationincorporated.co.za/landing-book-form.php</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/landing-prospectus-form.php</loc>
+        <loc>https://educationincorporated.co.za/landing-prospectus-form.php</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/resources.php</loc>
+        <loc>https://educationincorporated.co.za/resources.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/sports-achievers.php</loc>
+        <loc>https://educationincorporated.co.za/sports-achievers.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/staff.php</loc>
+        <loc>https://educationincorporated.co.za/staff.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/tour-request-form.php</loc>
+        <loc>https://educationincorporated.co.za/tour-request-form.php</loc>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://educationincorporated.co.za/values.php</loc>
+        <loc>https://educationincorporated.co.za/values.php</loc>
         <priority>0.9</priority>
     </url>
 </urlset>
