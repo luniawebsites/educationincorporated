@@ -145,7 +145,7 @@
 					<!-- Audio clip -->
 					<div class="margin-y-mob">
 						<h4 class="pad-b-mob">Listen to Ronald's story</h4>
-						<audio style="width:100%" controls src="http://podcaststudios.co.za/audio/eduinc/edu-inc-case-study-04-ronald-ga.mp3"></audio>
+						<audio style="width:100%" controls src="https://chtbl.com/track/podcaststudios.co.za/audio/eduinc/edu-inc-case-study-04-ronald-ga.mp3"></audio>
 					</div>
 
 					<em class="radius-mob theme-grey accent-blue"><strong>Read More:</strong> Children need <a href="landing-3-article.php">structure and predictability</a>.</em>
