@@ -52,7 +52,7 @@ Redirect 301 /academics.html /academics.php
 Redirect 301 /admissions.html /admissions.php
 Redirect 301 /afterschoolactivities.html /activities.php
 Redirect 301 /campus.html /campus.php
-Redirect 301 /contact.html /index.php#contact
+# Redirect 301 /contact.html /index.php#contact
 Redirect 301 /creatives.html /creatives.php
 Redirect 301 /curriculum.html /curriculum.php
 Redirect 301 /entrepreneurs.html /entrepreneurs.php
