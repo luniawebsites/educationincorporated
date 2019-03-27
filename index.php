@@ -7,6 +7,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
 
 	<!--
+	PARTIAL > Base URL
+	-->
+	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
+
+	<!--
 	PARTIAL > Google Tag Manager head script
 	-->
 	<?php echo file_get_contents("assets/partials/google-tag-manager-head.html"); ?>
@@ -31,12 +36,6 @@
 	<meta name="subtitle" content="">
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
-
-	<!--
-	PARTIAL > Base URL
-	-->
-	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
-
 	<meta property="og:title" content="Education Incorporated Boutique School" />
 	<meta property="og:keywords" content="" />
 	<meta property="og:description" content="" />
