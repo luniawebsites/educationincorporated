@@ -34,7 +34,7 @@
 	-->
 	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
 
-	<title>Disclaimer for EduInc E-mails/title>
+	<title>Disclaimer for EduInc E-mails</title>
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
 	<link rel="dns-prefetch" href="https://educationincorporated.co.za/">
