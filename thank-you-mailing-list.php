@@ -84,7 +84,7 @@
 				<!--
 				Main content
 				-->
-				<p></p>
+				<p>Keep an eye out for our mails on school- and education-related stories of interest.</p>
 
 			</div>
 
