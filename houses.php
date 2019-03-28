@@ -173,8 +173,8 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="font-green">
-								<td>2018: Luke van Rooyen</td>
+							<tr class="font-red">
+								<td>2018: Trinitiy Nel</td>
 							<tr class="font-green">
 								<td>2017: Luke van Rooyen</td>
 							</tr>

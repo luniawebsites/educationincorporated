@@ -1,6 +1,10 @@
 ## Set Rewrite engine on ##
 RewriteEngine on
 
+## Force HTTPS ##
+RewriteCond %{HTTPS} off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 ## Redirect requests for a non-existent directory to a .php file of the same name ##
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [L]
@@ -52,7 +56,7 @@ Redirect 301 /academics.html /academics.php
 Redirect 301 /admissions.html /admissions.php
 Redirect 301 /afterschoolactivities.html /activities.php
 Redirect 301 /campus.html /campus.php
-# Redirect 301 /contact.html /index.php#contact
+Redirect 301 /contact.html /index.php#contact
 Redirect 301 /creatives.html /creatives.php
 Redirect 301 /curriculum.html /curriculum.php
 Redirect 301 /entrepreneurs.html /entrepreneurs.php
@@ -117,31 +121,23 @@ Redirect 301 /values.html /values.php
 	AddOutputFilterByType DEFLATE font/opentype
 </IfModule>
 
-## Expire caching ##
-<IfModule mod_expires.c>
-	ExpiresActive on
-	ExpiresDefault "access plus 2 weeks"
-	# Data
-	ExpiresByType text/xml "access plus 0 seconds"
-	ExpiresByType application/xml "access plus 0 seconds"
-	ExpiresByType application/json "access plus 0 seconds"
-	# Favicon
-	ExpiresByType image/x-icon "access plus 2 weeks"
-	# Images, video, audio
-	ExpiresByType image/gif "access plus 2 weeks"
-	ExpiresByType image/png "access plus 2 weeks"
-	ExpiresByType image/jpg "access plus 2 weeks"
-	ExpiresByType image/jpeg "access plus 2 weeks"
-	ExpiresByType image/svg+xml "access plus 2 weeks"
-	ExpiresByType video/mp3 "access plus 2 weeks"
-	ExpiresByType video/mp4 "access plus 2 weeks"
-	ExpiresByType video/webm "access plus 2 weeks"
-	# Webfonts
-	ExpiresByType application/x-font-ttf "access plus 2 weeks"
-	ExpiresByType font/opentype "access plus 2 weeks"
-	ExpiresByType application/x-font-woff "access plus 2 weeks"
-	ExpiresByType application/vnd.ms-fontobject "access plus 2 weeks"
-	# CSS and JavaScript
-	ExpiresByType text/css "access plus 2 weeks"
-	ExpiresByType application/javascript "access plus 2 weeks"
-</IfModule>
+## Caching policy ##
+
+# Markup, text and code (30 minutes)
+<FilesMatch "\.(php|html|htm|js|css|xml|txt)$">
+	Header set Cache-Control "max-age=1800, must-revalidate"
+</FilesMatch>
+
+# Images (1 week)
+<FilesMatch "\.(svg|webp|jpg|jpeg|png)$">
+	Header set Cache-Control "max-age=604800, must-revalidate"
+</FilesMatch>
+
+## Explicity ensure these do not cache
+<FilesMatch "\.pdf$">
+	FileETag None
+	Header unset ETag
+	Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+	Header set Pragma "no-cache"
+	Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+</FilesMatch>
