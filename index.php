@@ -62,7 +62,7 @@
 	<script type="application/ld+json">
 		{
 		"@context": "http://schema.org",
-		"@type": "Organization",
+		"@type": "Corporation",
 		"id": "https://educationincorporated.co.za",
 		"url": "https://educationincorporated.co.za",
 		"name": "Education Incorporated",
