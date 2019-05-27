@@ -121,15 +121,15 @@
 					<p>At Education Incorporated we talk about things—we plant seeds of thought that grow through valuable dialogue! Honest conversations about academics, peer and teacher relationships, personal development and growth, social issues and pressure, conflict management and leadership, are but a few of the daily topics that we engage in.</p>
 					<p>In addition to effective communication, there are two pillars underlying the core values that are the very foundation of the Education Incorporated School: High academic standards and the respect afforded teachers.</p>
 
-					<h3>Our Values</h3>
+					<h3>Our Values. At EduInc...</h3>
 
 					<p>
 						<ul class="list-shield">
 							<li>All actions and decisions are based on the best interests of the children.</li>
 							<li>Every experience is a teaching and learning opportunity for children, parents and teachers alike.</li>
-							<li>Nurturing the well-being and development of the children through the integration and growth of IQ, EQ and AQ<sup class="font-red">1</sup>.</li>
-							<li>Engagement in "big-picture" thinking to ensure the development of perspective, creative problem-solving and development of essential critical thinking skills.</li>
-							<li>Encouragement and facilitation of acceptance, respect and tolerance of others.</li>
+							<li>We nurture the well-being and development of the children through the integration and growth of IQ, EQ and AQ<sup class="font-red">1</sup>.</li>
+							<li>We engage in "big-picture" thinking to ensure the development of perspective, creative problem-solving and development of essential critical thinking skills.</li>
+							<li>We encourage and facilitate acceptance, respect, and tolerance of others in the physical and digital worlds.</li>
 						</ul>
 					</p>
 
