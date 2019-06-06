@@ -126,7 +126,7 @@
 			Container
 			-->
 
-			<div class="flow-ttb-mob height-100 constrain pad-respond-y-mob align-c-mob">
+			<div class="flow-ttb-mob height-100 constrain pad-respond-t-mob align-c-mob">
 
 				<img src="assets/images/education-incorporated-logo.png" alt="education incorporated logo" />
 
@@ -135,6 +135,12 @@
 						<h1>Registered IEB <span class="no-break">Private School</span></h1>
 
 						<div class="h2">Grades 4 to 12 with 10 children <span class="no-break">per class</span></div>
+
+						<div class="flow-ttb-mob margin-t-mob pad-respond-xy-mob">
+
+							<span class="bg-c-c-mob brand-teded"></span>
+
+						</div>
 
 				</div>
 
