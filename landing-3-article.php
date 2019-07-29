@@ -9,12 +9,12 @@
 	<!--
 	PARTIAL > Google Tag Manager head script
 	-->
-	<?php echo file_get_contents("assets/partials/google-tag-manager-head.html"); ?>
+	<?php include("assets/partials/google-tag-manager-head.html"); ?>
 
 	<!--
 	PARTIAL > Global scripts
 	-->
-	<?php echo file_get_contents("assets/partials/global-scripts.html"); ?>
+	<?php include("assets/partials/global-scripts.html"); ?>
 
 	<!--
 	LINK & PARTIAL > Async-load non-critical CSS
@@ -22,7 +22,7 @@
 
 	<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
-	<?php echo file_get_contents("assets/partials/loadCSS.html"); ?>
+	<?php include("assets/partials/loadCSS.html"); ?>
 
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="pagename" content="Education Incorporated Boutique School">
@@ -32,7 +32,7 @@
 	<!--
 	PARTIAL > Base URL
 	-->
-	<?php echo file_get_contents("assets/partials/base-url.html"); ?>
+	<?php include("assets/partials/base-url.html"); ?>
 
 	<title>Education Incorporated Boutique School</title>
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
@@ -43,7 +43,7 @@
 	STYLES > Critical CSS
 	-->
 	<style type="text/css">
-		<?php echo file_get_contents("assets/critical.min.css"); ?>
+		<?php include("assets/critical.min.css"); ?>
 	</style>
 
 </head>
@@ -53,22 +53,17 @@
 	<!--
 	PARTIAL > Google Tag Manager body script
 	-->
-	<?php echo file_get_contents("assets/partials/google-tag-manager-body.html"); ?>
+	<?php include("assets/partials/google-tag-manager-body.html"); ?>
 
 	<!--
 	PARTIAL > Browse Happy outdated browser notice
 	-->
-	<?php echo file_get_contents("assets/partials/browse-happy.html"); ?>
-
-	<!--
-	PARTIAL > Mobile off-canvas menu
-	-->
-	<?php echo file_get_contents("assets/partials/page-nav.html"); ?>
+	<?php include("assets/partials/browse-happy.html"); ?>
 	
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
-	<?php echo file_get_contents("assets/partials/page-leader.html"); ?>
+	<?php include("assets/partials/page-leader.html"); ?>
 
 	<main>
 
@@ -180,12 +175,12 @@
 					<!--
 					PARTIAL > Card
 					-->
-					<?php echo file_get_contents("assets/partials/card-3-book.html"); ?>
+					<?php include("assets/partials/card-3-book.html"); ?>
 
 					<!--
 					PARTIAL > Card
 					-->
-					<?php echo file_get_contents("assets/partials/card-3-prospectus.html"); ?>
+					<?php include("assets/partials/card-3-prospectus.html"); ?>
 
 					<!--
 					Card
@@ -213,12 +208,12 @@
 					<!--
 					PARTIAL > Card
 					-->
-					<?php echo file_get_contents("assets/partials/card-tour.html"); ?>
+					<?php include("assets/partials/card-tour.html"); ?>
 
 					<!--
 					PARTIAL > Card
 					-->
-					<?php echo file_get_contents("assets/partials/card-faq.html"); ?>
+					<?php include("assets/partials/card-faq.html"); ?>
 
 				</aside>
 
@@ -229,29 +224,19 @@
 		<!--
 		PARTIAL > Photo strip
 		-->
-		<?php echo file_get_contents("assets/partials/photo-strip.html"); ?>
+		<?php include("assets/partials/photo-strip.html"); ?>
 
 		<!--
 		PARTIAL > Contact form
 		-->
-		<?php echo file_get_contents("assets/partials/contact-form.html"); ?>
+		<?php include("assets/partials/contact-form.html"); ?>
 
 	</main>
 
 	<!--
 	PARTIAL > Page footer
 	-->
-	<?php echo file_get_contents("assets/partials/page-footer.html"); ?>
-
-	<!--
-	PARTIAL > Schema
-	-->
-	<?php echo file_get_contents("assets/partials/schema.html"); ?>
-
-	<!--
-	HTML > Preload elements
-	-->
-	<!--<span class="preload-me"></span>-->
+	<?php include("assets/partials/page-footer.html"); ?>
 
 </body>
 
