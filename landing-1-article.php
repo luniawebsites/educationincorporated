@@ -147,7 +147,9 @@
 					<!-- Audio clip -->
 					<div class="margin-y-mob">
 						<h4 class="pad-b-mob">Listen to Neil's story</h4>
-						<audio style="width:100%" controls src="https://chtbl.com/track/podcaststudios.co.za/audio/eduinc/edu-inc-case-study-01-neil-ga.mp3"></audio>
+						<audio style="width:100%" controls>
+   						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/eduinc/edu-inc-case-study-01-neil-ga.mp3" type='audio/mpeg; codecs="mp3"'>
+						</audio>
 					</div>
 
 					<p>You're certain to recognise situations like this from conversations you’ve had with your child. We'll follow this real-life example for you, explain the likely root causes and walk you through how we resolve this in line with our values. </p>
