@@ -828,7 +828,7 @@
 		Houses
 		-->
 
-		<section class="pad-xy-mob theme-grey">
+		<section class="pad-respond-xy-mob theme-grey">
 
 			<!--
 			Section header
@@ -920,59 +920,6 @@
 			</div>
 
 		</section>
-
-
-
-
-
-		<!--
-		WeBenefit
-		-->
-
-		<section class="pad-xy-mob theme-grey">
-
-			<!--
-			Section header
-			-->
-
-			<header class="constrain pad-y-mob">
-
-				<h2 class="text-underline-red">Support EduInc through WeBenefit</h2>
-
-				<p>Every flight you book could be raising money for our school! Book your flights through this Travelstart window and EduInc receives R75 per transaction.</p>
-
-			</header>
-
-			<!--
-			Container
-			-->
-
-			<div class="flow-ttb-mob flow-ltr-tab constrain spread pad-y-mob align-s-tab">
-
-			<div id="WeBenefitIframeContainer"></div>
-
-			<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.js"></script>
-
-			<script type="text/javascript">
-
-					var pymParent = new pym.Parent('WeBenefitIframeContainer',
-
-							'https://www.webenefit.co.za/Travel/IframeFlights?affId=1792282',
-
-							{});
-
-					pymParent.onMessage("RefreshWindow", function () {
-
-							window.location.reload();
-
-					});
-					</script>
-
-			</div>
-
-		</section>
-
-
 
 		<!--
 		PARTIAL > Contact form
