@@ -144,6 +144,36 @@
 		</header>
 
 		<!--
+		Gardening 101 Video
+		-->
+
+		<section class="pad-respond-xy-mob theme-white border-b-mob">
+
+			<!--
+			Section header
+			-->
+
+			<header class="constrain pad-respond-t-mob pad-double-b-mob">
+
+				<h2 class="text-underline-red">Gardening 101 on Location at EduInc</h2>
+
+				<p>Our beautiful gardens are designed to be used as outdoor teaching spaces and to provide a relaxing environment for our children and staff during breaks.</p>
+
+			</header>
+
+			<!--
+			Container
+			-->
+
+			<div class="flow-ttb-mob flow-ltr-tab height-100 constrain spread-respond pad-respond-xy-mob align-c-mob radius-mob border-mob shadow-mob">
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/q3A00ZamA38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+			</div>
+
+		</section>
+
+		<!--
 		Unique perspective
 		-->
 
