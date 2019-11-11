@@ -148,7 +148,7 @@
 					<div class="margin-y-mob">
 						<h4 class="pad-b-mob">Listen to Neil's story</h4>
 						<audio style="width:100%" controls>
-   						<source src="https://chtbl.com/track/podcaststudios.co.za/audio/eduinc/edu-inc-case-study-01-neil-ga.mp3" type='audio/mpeg; codecs="mp3"'>
+   						<source src="https://podcaststudios.co.za/audio/eduinc/edu-inc-case-study-01-neil-ga.mp3" type='audio/mpeg; codecs="mp3"'>
 						</audio>
 					</div>
 
