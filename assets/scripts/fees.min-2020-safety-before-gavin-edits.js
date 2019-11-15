@@ -34,15 +34,15 @@ function setRadios() {
 onload = setRadios;
 
 feeValues = {
-	"4" : { monthly: 9564.32, annual: 10424.89, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"5" : { monthly: 9564.32, annual: 10424.89, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"6" : { monthly: 9564.32, annual: 10424.89, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"7" : { monthly: 10497.75, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"8" : { monthly: 10497.75, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"9" : { monthly: 10497.75, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"10" : { monthly: 11355.27, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"11" : { monthly: 11055.07, annual: 15080.74, registration: 27132.35, deposit: 0.00, egd: 0.0, ieb: 4025.0},
-	"12" : { monthly: 11055.07, annual: 15080.74, registration: 27132.35, deposit: 0.00, egd: 0.0, ieb: 4025.0}
+	"4" : { monthly: 9599.54, annual: 10424.89, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"5" : { monthly: 9599.54, annual: 10424.89, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"6" : { monthly: 9599.54, annual: 10424.89, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"7" : { monthly: 10532.97, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"8" : { monthly: 10532.97, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"9" : { monthly: 10532.97, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"10" : { monthly: 11390.49, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"11" : { monthly: 11390.49, annual: 15080.74, registration: 27132.35, deposit: 0.00, egd: 0.0, ieb: 4025.0},
+	"12" : { monthly: 11390.49, annual: 15080.74, registration: 27132.35, deposit: 0.00, egd: 0.0, ieb: 4025.0}
 }
 
 function calculateFees() {
