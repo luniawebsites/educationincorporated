@@ -260,10 +260,10 @@
 										<input class="feesresult__input--50" id="tuition" type="text" value="R0.00" readonly />
 									</div>
 
-									<div class="feesresult__item">
+									<!-- <div class="feesresult__item">
 										<span class="feesresult__label">IEB<sup class="font-red">3</sup></span>
 										<input class="feesresult__input--50" id="ieb" type="text" value="R0.00" readonly />
-									</div>
+									</div> -->
 
 									<div class="feesresult__item">
 										<span class="feesresult__label">Discount</span>
@@ -279,9 +279,9 @@
 								<hr class="feesresult__hr" />
 
 								<ol class="list-reference">
-									<li>Includes joining fee for new students and all additional charges, such as curriculum, textbooks, outings, software and licences, development levy, photographs, locker rental <span class="no-break">and sundries</span></li>
-									<li>Includes all additional charges, such as curriculum, textbooks, outings, software and licences, development levy, photographs, locker rental <span class="no-break">and sundries</span></li>
-									<li>Specific testing for grades 6 and 9 and the Matric exam fee paid over two years in <span class="no-break">grades 11 and 12</span></li>
+									<li>Includes joining fee for new students and all additional charges, such as IEB, curriculum, textbooks, outings, software and licences, development levy, photographs, locker rental <span class="no-break">and sundries</span></li>
+									<li>Includes all additional charges, such as IEB, curriculum, textbooks, outings, software and licences, development levy, photographs, locker rental <span class="no-break">and sundries</span></li>
+									<!-- <li>Specific testing for grades 6 and 9 and the Matric exam fee paid over two years in <span class="no-break">grades 11 and 12</span></li> -->
 								</ol>
 
 							</div>
