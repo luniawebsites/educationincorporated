@@ -70,7 +70,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -128,9 +128,9 @@
 
 						<p>
 							<ul class="list-check">
-								<li><strong>Fill out the application form</strong>. Please <a href="#">see the available positions</a> under our resources page. Don’t be deterred if there are no current vacancies. Get hold of us and tell us what a great asset you'll be to our school.</li>
+								<li><strong>Fill out the application form</strong>. Thank you for your interest in teaching at our boutique school. This is not what you're expecting... <a href="https://docs.google.com/document/d/1-2X6BgOUnZmYQGIdYIUHZke-8QtHsQAKhlGKbEJbYTc/edit?usp=sharing" target="_blank" rel="noopener">start by clicking here</a>... Good luck!</li>
 								<li><strong>Phone interview.</strong> A 10- to 20-minute conversation with general questions about your background, experience and values. This gives us an opportunity to get to know you better and consists of questions to assess your mission and vision alignment with our school. Successful candidates will be invited for an in-person interview. To prepare for the phone interview, candidates should demonstrate that they have sufficiently researched Education Incorporated, and can explain why they are interested in joining our team.</li>
-								<li><strong>In-person interview.</strong> Interviews are a two-part process. The first part is a conversation with the Headmaster and Director of the school. You will be asked questions about your educational viewpoints and have the opportunity to share your educational journey thus far. The second part is with a panel of your peers. This is where you will be asked to share examples of your administrative competency (teacher files, lesson plans, etc.) and will have the opportunity to explore the culture of the staff, and school as a whole. All information for the interview is provided in advance to ensure that there is enough time to prepare. To prepare for the interview, candidates should think about the role they would like to play in the growing Education Incorporated schools group, now and in the future, and about their strengths and areas of growth as individuals. Successful candidates will demonstrate confidence and a willingness to accept feedback throughout the course of the interview.</li>
+								<li><strong>In-person interview.</strong> Interviews are a two-part process. The first part is a conversation with the Headmaster and Executive Head of the school. You will be asked questions about your educational viewpoints and have the opportunity to share your educational journey thus far. The second part is with a panel of your peers. This is where you will be asked to share examples of your administrative competency (teacher files, lesson plans, etc.) and will have the opportunity to explore the culture of the staff, and school as a whole. In preparing for the interview, candidates should think about the role they would like to play in the growing Education Incorporated schools group, now and in the future, and about their strengths and areas of growth as individuals. Successful candidates will demonstrate confidence and a willingness to accept feedback throughout the course of the interview.</li>
 							</ul>
 						</p>
 

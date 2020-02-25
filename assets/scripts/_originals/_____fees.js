@@ -34,15 +34,15 @@ function setRadios() {
 onload = setRadios;
 
 feeValues = {
-	"4" : { monthly: 9564.32, annual: 10424.89, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"5" : { monthly: 9564.32, annual: 10424.89, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"6" : { monthly: 9564.32, annual: 10424.89, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"7" : { monthly: 10497.75, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"8" : { monthly: 10497.75, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"9" : { monthly: 10497.75, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"10" : { monthly: 11355.27, annual: 11222.99, registration: 23140.66, deposit: 0.00, egd: 0.0, ieb: 422.60},
-	"11" : { monthly: 11055.07, annual: 15080.74, registration: 27132.35, deposit: 0.00, egd: 0.0, ieb: 4025.0},
-	"12" : { monthly: 11055.07, annual: 15080.74, registration: 27132.35, deposit: 0.00, egd: 0.0, ieb: 4025.0}
+	"4" :	{ monthly: 8726.85, annual: 9241.94, registration: 21064.00, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"5" : { monthly: 8726.85, annual: 9241.94, registration: 21064.00, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"6" : { monthly: 8726.85, annual: 9241.94, registration: 21064.00, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"7" : { monthly: 9575.43, annual: 9982.54, registration: 21064.00, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"8" : { monthly: 9575.43, annual: 9982.54, registration: 21064.00, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"9" : { monthly: 9575.43, annual: 9982.54, registration: 21064.00, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"10" : { monthly: 10355.00, annual: 9982.54, registration: 21064.00, deposit: 0.00, egd: 0.0, ieb: 422.60},
+	"11" : { monthly: 10355.00, annual: 9922.46, registration: 21169.52, deposit: 0.00, egd: 0.0, ieb: 4025.0},
+	"12" : { monthly: 10355.00, annual: 9922.46, registration: 21169.52, deposit: 0.00, egd: 0.0, ieb: 4025.0}
 }
 
 function calculateFees() {
