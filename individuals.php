@@ -70,7 +70,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -87,7 +87,7 @@
 			<h1 class="text-underline-red">Our Students Are Individuals</h1>
 			<div class="margin-y-mob pad-b-mob quote-white"></div>
 			<div class="h3">We accommodate creative achievers in the Arts field, even though we do not offer formal Art and Drama.</div>
-			<p>&mdash; Jacqueline Aitchison (Director)</p>
+			<p>&mdash; Jacqueline Aitchison (Executive Head)</p>
 
 		</header>
 

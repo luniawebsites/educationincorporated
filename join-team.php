@@ -87,7 +87,7 @@
 			<h1 class="text-underline-red">Join Our Amazing Team!</h1>
 			<div class="margin-y-mob pad-b-mob quote-white"></div>
 			<div class="h3">We recruit people with potential, and actively encourage individual professional development.</div>
-			<p>&mdash; Jacqueline Aitchison (Director)</p>
+			<p>&mdash; Jacqueline Aitchison (Executive Head)</p>
 
 		</header>
 

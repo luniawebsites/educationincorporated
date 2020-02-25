@@ -70,7 +70,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -160,7 +160,7 @@
 									<source srcset="assets/images/photos/staff__jacqueline-aitchison.webp" type="image/webp" />
 									<img class="round-mob border-mob" src="assets/images/photos/staff__jacqueline-aitchison.jpg" alt="gershom aitchison profile photo" />
 								</picture>
-								<figcaption class="text-l-des">Jacqueline Aitchison (Director)</figcaption>
+								<figcaption class="text-l-des">Jacqueline Aitchison (Executive Head)</figcaption>
 							</figure>
 
 						</div>
