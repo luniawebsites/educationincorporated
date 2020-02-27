@@ -119,11 +119,11 @@
 
 					<span class="article__author-name">By Gershom Aitchison</span>
 
-					<p>There are no further, compulsory, "hidden" charges during the year. <a href="#feescalculator">The fee you see</a> is the fee you pay&mdash;and that's for a private school education in classes with no more than 10 children per teacher.</p>
+					<p>There are no further, compulsory, "hidden" charges during the year. <a href="#feescalculator">The fee you see</a> is the fee you pay&mdash;and that's for a private school education in classes with no more than 10 children per class.</p>
 
-					<p>While the additional charges referred to below are payable at the commencement of the year, the others are payable either monthly (over 12 months), termly (we're a three-term school) or annually. A discount applies to the latter two options.</p>
+					<p>While the additional charges referred to below are payable at the commencement of the year, the others are payable in advance either monthly (over 12 months), termly (we're a three-term school) or annually. A discount applies to the latter two options.</p>
 
-					<p>For families joining us for the first time, there is an initial joining fee payable upon registration. This fee includes all the additional charges listed below. For families with multiple enrolments (e.g. siblings) an additional 5% discount applies to the annual fees for the youngest child enrolled.</p>
+					<p>For families joining us for the first time, there is an initial joining fee payable upon registration. This fee includes all the additional charges listed below. For families with multiple enrolments (e.g. siblings) a discount applies to the annual fees of the youngest child enrolled.</p>
 
 					<h3>What Our Fees Include</h3>
 
@@ -139,7 +139,7 @@
 					<hr />
 
 					<ol class="list-reference">
-						<li>Specific testing for grades 6 and 9 and the Matric exam fee paid over two years in <span class="no-break">grades 11 and 12</span></li>
+						<li>Specific testing for grades 6 and 9. The Matric exam fee is split over two years in <span class="no-break">grades 11 and 12</span></li>
 						<li>Including curriculum, textbooks, development levy, locker rental, software licences and photographs</li>
 					</ol>
 
