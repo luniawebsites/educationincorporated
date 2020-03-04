@@ -121,18 +121,37 @@
 
 					<p>There are no further, compulsory, "hidden" charges during the year. <a href="#feescalculator">The fee you see</a> is the fee you pay&mdash;and that's for a private school education in classes with no more than 10 children per class.</p>
 
-					<p>While the additional charges referred to below are payable at the commencement of the year, the others are payable in advance either monthly (over 12 months), termly (we're a three-term school) or annually. A discount applies to the latter two options.</p>
+					<p>While the additional charges referred to below are payable at the commencement of the year, the others are payable in advance either monthly (over 12 months), termly (we're a three-term school) or annually.</p>
 
-					<p>For families joining us for the first time, there is an initial joining fee payable upon registration. This fee includes all the additional charges listed below. For families with multiple enrolments (e.g. siblings) a discount applies to the annual fees of the youngest child enrolled.</p>
+					<p>For families joining us for the first time, there is an initial joining fee payable upon registration. This fee includes all the additional charges listed below.</p>
+
+					<p>Please check the current Schedule of Fees for annual, termly and sibling discounts.</p>
 
 					<h3>What Our Fees Include</h3>
 
 					<p>
 						<ul class="list-check">
 							<li>Annual grade-specific tuition fee</li>
-							<li>IEB charges<sup class="font-red">1</sup></li>
-							<li>Subject-specific charges</li>
+							<li>ISASA membership and IEB subscriptions and registration<sup class="font-red">1</sup></li>
+							<!-- <li>Subject-specific charges (additional subjects)</li> -->
+							<li>Textbooks</li>
+							<li>Maintenance levy</li>
+							<li>Locker rental</li>
+							<li>Software licences</li>
+							<li>Local outings</li>
+							<li>Photographs</li>
 							<li>All additional charges<sup class="font-red">2</sup></li>
+						</ul>
+					</p>
+
+					<h3>What Our Fees Exclude</h3>
+
+					<p>
+						<ul class="list-check">
+							<li>Stationery</li>
+							<li>Subject-specific charges (additional subjects)</li>
+							<li>Clubs, competitions, events and external resources brought into the school</li>
+							<li>National or international travel</li>
 						</ul>
 					</p>
 
@@ -140,7 +159,7 @@
 
 					<ol class="list-reference">
 						<li>Specific testing for grades 6 and 9. The Matric exam fee is split over two years in <span class="no-break">grades 11 and 12</span></li>
-						<li>Including curriculum, textbooks, development levy, locker rental, software licences and photographs</li>
+						<li>Sundries</li>
 					</ol>
 
 				</article>
@@ -249,14 +268,14 @@
 									</div>
 
 									<div class="feesresult__item">
-										<span class="feesresult__label">Payable at Start of Year<sup class="font-red">2</sup></span>
+										<span class="feesresult__label">Payable at the Start of the Year<sup class="font-red">2</sup></span>
 										<input class="feesresult__input--50" id="curriculum" type="text" value="R0.00" readonly />
 									</div>
 
 									<hr class="feesresult__hr" />
 
 									<div class="feesresult__item">
-										<span class="feesresult__label">Tuition</span>
+										<span class="feesresult__label">Tuition Fee<sup class="font-red">3</sup></span>
 										<input class="feesresult__input--50" id="tuition" type="text" value="R0.00" readonly />
 									</div>
 
@@ -279,8 +298,9 @@
 								<hr class="feesresult__hr" />
 
 								<ol class="list-reference">
-									<li>Includes joining fee for new students and all additional charges, such as IEB, curriculum, textbooks, outings, software and licences, development levy, photographs, locker rental <span class="no-break">and sundries</span></li>
-									<li>Includes all additional charges, such as IEB, curriculum, textbooks, outings, software and licences, development levy, photographs, locker rental <span class="no-break">and sundries</span></li>
+									<li>The Joining Fee fee for new students includes the first year's Annual Curriculum Fee as well as basic uniform items, <span class="no-break">and development levy</span></li>
+									<li>The Annual Curriculum Fee includes ISASA membership, IEB subscriptions and registration costs, textbooks, maintenance levy, locker rental, software licences, local outings, printing costs, photographs, <span class="no-break">and sundries</span></li>
+									<li>The Tuition Fee is grade-specific and applies to all students at EduInc.</li>
 									<!-- <li>Specific testing for grades 6 and 9 and the Matric exam fee paid over two years in <span class="no-break">grades 11 and 12</span></li> -->
 								</ol>
 
