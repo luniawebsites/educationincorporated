@@ -153,14 +153,6 @@
 		</section>
 
 		<!--
-		Application form
-		-->
-
-		<section class="pad-respond-xy-mob theme-white border-b-mob shadow-t-mob">
-			<script type="text/javascript" src="https://form.myjotform.com/jsform/71553008604551"></script>
-		</section>
-
-		<!--
 		PARTIAL > Photo strip
 		-->
 		<?php include("assets/partials/photo-strip.html"); ?>
