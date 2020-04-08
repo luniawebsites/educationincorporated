@@ -70,7 +70,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -118,7 +118,7 @@
 					<p>Young musicians, models and actors have gruelling training and competition programmes that often become difficult to sustain while simultaneously managing the rigors of a full academic schedule. Although Education Incorporated does not offer formal Art and Drama as an FET subject, the school is able to accommodate <a href="creatives.php" aria-label="creatives">creative achievers in the Arts</a>.</p>
 					<p>At Education Incorporated we recognise that <a href="individuals.php" aria-label="individuals">all children are unique individuals</a>, and that large, busy environments overwhelm some children. Our environment recognises and nurtures the potential of each child, working hand-in-hand with them, showing them what it is like to learn in secure, encouraging and positive surroundings.</p>
 					<p>Our students live in a world that is evolving and developing at an exponentially fast pace. Traditional academic values and systems are not equipping <a href="entrepreneurs.php" aria-label="entrepreneurs">our future entrepreneurs</a> for the world they will step into after school. Critical thinking and the ability to create, build, problem-solve and develop ideas sets Education Incorporated students apart.</p>
-					<p><span class="image righttall"><img src="images/kaleightelfer.jpg" alt="" /></span>Although Education Incorporated does not offer formal sports activities, the school is home to a significant number of <a href="sportsachievers.php" aria-label="sports achievers">sports stars competing</a> at both provincial and national levels. Young Springboks and provincial sportspeople have grueling training and competition programmes, and these students often enroll at Education Incorporated because we can help manage the rigors of a full academic curriculum alongside their sporting commitments.</p>
+					<p><!--<span class="image righttall"><img src="images/kaleightelfer.jpg" alt="" /></span>-->Although Education Incorporated does not offer formal sports activities, the school is home to a significant number of <a href="sportsachievers.php" aria-label="sports achievers">sports stars competing</a> at both provincial and national levels. Young Springboks and provincial sportspeople have grueling training and competition programmes, and these students often enroll at Education Incorporated because we can help manage the rigors of a full academic curriculum alongside their sporting commitments.</p>
 
 					<em class="radius-mob theme-grey accent-blue">Gershom and Jacqueline Aitchison’s educational journey has resulted in a great passion for education and a belief in the potential for an improved educational standard through effective teacher training and implementation.</em>
 
