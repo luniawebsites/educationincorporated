@@ -127,9 +127,11 @@
 
 				<div class="pad-t-mob">
 
-						<h1>Registered IEB <span class="no-break">Private School</span></h1>
+						<h1>Not a single hour of teaching has been lost as we moved to teaching online.</h1>
 
-						<div class="h2">Grades 4 to 12 with 10 children <span class="no-break">per class</span></div>
+						<div class="h2">Our admissions remain open if you need to <a class="no-break" href="tour-request-form.php">move your child.</a></div>
+
+                        <div class="h2">EduInc is a registered IEB <span class="no-break">Private School</span> teaching grades 4 to 12 with 10 children <span class="no-break">per class</span>.</div>
 
 						<div class="flow-ttb-mob margin-t-mob pad-respond-xy-mob">
 
@@ -430,7 +432,7 @@
 			</header>
 
 			<!--
-			
+
 			-->
 
 			<div class="pad-respond-y-mob">
