@@ -119,6 +119,25 @@ a.button {
 	transition: all 0.15s ease-in-out;
 }
 
+// Red
+
+button.theme-red,
+a[type="button"].theme-red,
+a.button.theme-red {
+	border: solid 2px $light-red;
+	background-color: $dark-red;
+	color: $grey;
+}
+
+// Active
+button.theme-red:active,
+a[type="button"].theme-red:active,
+a.button.theme-red:active {
+	border: solid 2px $light-red;
+	background-color: $light-red;
+	color: $grey;
+}
+
 // Blue
 
 button.theme-blue,
@@ -596,7 +615,16 @@ em.accent-blue {
 	/* Buttons
 	---------------------------------------------------------------------------- */
 
-	// Blue
+	// Red
+	button.theme-red:hover,
+	a[type="button"].theme-red:hover,
+	a.button.theme-red:hover {
+		border: solid 2px $light-red;
+		background-color: $light-red;
+		color: $grey;
+	}
+
+    // Blue
 	button.theme-blue:hover,
 	a[type="button"].theme-blue:hover,
 	a.button.theme-blue:hover {
@@ -623,7 +651,7 @@ em.accent-blue {
 		color: $grey;
 	}
 
-	
+
 	/* Background image accents
 	---------------------------------------------------------------------------- */
 

@@ -132,7 +132,7 @@ body {
 	padding-left: $space-mobile;
 	height: $page-leader-height;
 	white-space: nowrap;
-	color: $grey;
+	// color: $grey;
 	font-family: $font-menu;
 	font-size: 1rem;
 	letter-spacing: -0.01rem;
@@ -177,7 +177,7 @@ span.page-nav__primary-item:after {
 	padding-right: $space-mobile;
 	padding-left: $space-mobile;
 	height: calc(#{$page-leader-height} * 0.75);
-	color: $grey;
+	// color: $grey;
 	font-family: $font-menu;
 	font-size: 1rem;
 	letter-spacing: -0.01rem;
@@ -254,7 +254,7 @@ span.page-nav__primary-item:after {
 		padding-right: $space-fixed;
 		padding-left: $space-fixed;
 		white-space: nowrap;
-		color: $grey;
+		// color: $grey;
 		font-family: $font-menu;
 		font-size: 1rem;
 		letter-spacing: -0.01rem;
@@ -313,7 +313,7 @@ span.page-nav__primary-item:after {
 	.page-nav__primary-container {
 		background-color: transparent;
 	}
-	
+
 	.page-nav__primary-container:hover .page-nav__secondary-container {
 		border: solid 1px $border-color-dark;
 		max-height: 1000px; // This number is arbitrary but must exceed potential height
@@ -342,7 +342,7 @@ span.page-nav__primary-item:after {
 	}
 
 	.page-nav__secondary-item:hover {
-		background-color: $grey;
+		// background-color: $grey;
 		transition: color 0.15s ease;
 	}
 
@@ -351,7 +351,7 @@ span.page-nav__primary-item:after {
 	a.page-nav__primary-item {
 		border-bottom: 0; // Disable from mobile
 		height: $page-leader-height;
-		color: $grey;
+		// color: $grey;
 		font-size: 1rem;
 		letter-spacing: -0.01rem;
 		white-space: nowrap;
@@ -412,13 +412,13 @@ span.page-nav__primary-item:after {
 	}
 
 	.page-nav__secondary-item:hover {
-		color: $grey;
+		// color: $grey;
 		opacity: 0.85;
 	}
 
 	.page-nav__secondary-item:active,
 	.page-nav__secondary-item:focus {
-		border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+		// border-bottom: solid 1px rgba(255, 255, 255, 0.15);
 	}
 
 }

@@ -139,6 +139,11 @@
 
 						</div>
 
+                        <div class="flow-ttb-mob flow-ltr-tab spread pad-y-mob">
+    						<a class="button theme-red" href="https://sacoronavirus.co.za/" target="__blank" rel="noopener" id="covid19-response" aria-labelledby="covid19-response">COVID-19 Portal</a>
+    						<a class="button theme-red" href="covid19-response.php" id="covid19-portal" aria-labelledby="covid19-portal">COVID-19 Response</a>
+    					</div>
+
 				</div>
 
 			</div>
