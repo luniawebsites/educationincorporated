@@ -8,7 +8,7 @@ $unique = time();
 // =========================================================================
 
 set_time_limit(0);
-$url = 'https://realtimeaccounting.tumblr.com/rss' . '/?' . $unique;
+$url = 'https://educationincorporated.tumblr.com/rss' . '/?' . $unique;
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
@@ -34,13 +34,10 @@ else {
 
 // Construct article cards
 foreach($xml->channel->item as $item) {
-    echo '<div class="border radius justify-fs-mob theme-grey">';
-    echo '<div class="justify-sb-tab align-fs-mob pad-xy-respond theme-darker-grey flow-ttb-mob">';
-    echo '<div class="( blog-post-heading )">' . $item->title . '</div>';
-    // echo '<div class="( blog-post-date )">' . $item->pubDate . '</div>';
-    echo '<div class="( blog-post-description )">' . $item->description . '</div>';
-    echo '<div class="( blog-post-link )"><a href="' . $item->link . '" target="_blank" rel="noopener">Read full article on Tumblr</a></div>';
-    echo '</div>';
+    echo '<div class="width-100-mob pad-xy-mob border-mob radius-mob">';
+    echo '<div class="( blog-post-heading )"><a href="' . $item->link . '" target="_blank" rel="noopener">' . $item->title . '</a></div>';
+    echo '<div class="( blog-post-date )">' . $item->pubDate . '</div>';
+    // echo '<div class="( blog-post-description )">' . $item->description . '</div>';
     echo '</div>';
 }
 

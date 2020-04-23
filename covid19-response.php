@@ -136,21 +136,15 @@
 				</article>
 
 			<!--
-			Aside content
+			Blog content
 			-->
-				<aside class="flow-ttb-mob width-100-mob width-30-tab spread-respond">
+				<div class="flow-ttb-mob width-100-mob width-30-tab spread">
 
-					<!--
-					PARTIAL > Card 1
-					-->
-					<?php include("assets/partials/card-podcast.html"); ?>
+                    <!-- Get XML -->
+					<?php include("assets/scripts/getxml.php"); ?>
+					<!-- End -->
 
-					<!--
-					PARTIAL > Card 2
-					-->
-					<?php include("assets/partials/card-book.html"); ?>
-
-				</aside>
+				</div>
 
 			</div>
 
