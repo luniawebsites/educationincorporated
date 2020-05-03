@@ -117,7 +117,7 @@
 
 					<em class="radius-mob theme-grey accent-blue">We understand these pressures and support our young creatives by offering flexibility.</em>
 
-					<p>Make an appointment to <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener">come and see what we do</a>, how we do it, and if our values match yours and your child's.</p>
+					<p>Make an appointment to <a href="https://educationincorporated.co.za/tour-request-form.php" target="_blank" rel="noopener">come and see what we do</a>, how we do it, and if our values match yours and your child's.</p>
 
 				</article>
 
