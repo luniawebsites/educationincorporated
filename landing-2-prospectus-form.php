@@ -46,6 +46,17 @@
 		<?php include("assets/critical.min.css"); ?>
 	</style>
 
+    <!-- MailerLite Universal -->
+    <script>
+        (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+        var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+        f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+        var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+        .parentNode.insertBefore(r,);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+        var ml_account = ml('accounts', '1075222', 'a1x7q3p3t9', 'load');
+    </script>
+    <!-- End MailerLite Universal -->
+
 </head>
 
 <body class="theme-dark-grey">
@@ -59,7 +70,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -94,35 +105,11 @@
 				-->
 				<div class="width-100-mob width-70-tab pad-respond-b-mob">
 
-					<form accept-charset="UTF-8" action="https://wb357.infusionsoft.com/app/form/process/eaf45a3a244e7d797ae9c1bc85386319" class="infusion-form" id="inf_form_eaf45a3a244e7d797ae9c1bc85386319" method="POST">
-						<input name="inf_form_xid" type="hidden" value="eaf45a3a244e7d797ae9c1bc85386319" />
-						<input name="inf_form_name" type="hidden" value="Opt In&#a;to Prospectus&#a;from LP2" />
-						<input name="infusionsoft_version" type="hidden" value="1.70.0.81390" />
-						<div class="infusion-field pad-b-mob">
-							<label for="inf_field_FirstName">First Name</label>
-							<input class="infusion-field-input" id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
-						</div>
-						<div class="infusion-field pad-b-mob">
-							<label for="inf_field_LastName">Last Name</label>
-							<input class="infusion-field-input" id="inf_field_LastName" name="inf_field_LastName" type="text" />
-						</div>
-						<div class="infusion-field pad-b-mob">
-							<label for="inf_field_Email">Email</label>
-							<input class="infusion-field-input" id="inf_field_Email" name="inf_field_Email" type="text" />
-						</div>
-						<div class="infusion-field pad-b-mob">
-							<label for="inf_field_Phone1">Mobile</label>
-							<input class="infusion-field-input" id="inf_field_Phone1" name="inf_field_Phone1" type="text" />
-						</div>
-						<div>
-							<div>&nbsp;</div>
-						</div>
-						<div class="infusion-submit">
-							<button class="theme-blue" type="submit">Submit</button>
-						</div>
-					</form>
-					<script type="text/javascript" src="https://wb357.infusionsoft.app/app/webTracking/getTrackingCode"></script>
-					<script type="text/javascript" src="https://wb357.infusionsoft.com/app/timezone/timezoneInputJs?xid=eaf45a3a244e7d797ae9c1bc85386319"></script>
+                    <!--
+                    Mailerlite Form
+                    -->
+                    <div class="ml-form-embed" data-account="1075222:a1x7q3p3t9" data-form="1960864:k0t8k2">
+                    </div>
 
 				</div>
 

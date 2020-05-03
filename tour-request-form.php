@@ -54,6 +54,17 @@
 		<?php include("assets/critical.min.css"); ?>
 	</style>
 
+    <!-- MailerLite Universal -->
+    <script>
+        (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+        var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+        f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+        var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+        .parentNode.insertBefore(r,);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+        var ml_account = ml('accounts', '1075222', 'a1x7q3p3t9', 'load');
+    </script>
+    <!-- End MailerLite Universal -->
+
 </head>
 
 <body class="theme-dark-grey">
@@ -67,7 +78,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -91,85 +102,11 @@
 				-->
 				<article class="width-100-mob width-70-tab">
 
-					<!-- Infusionsoft Form -->
-
-					<form class="infusion-form" accept-charset="UTF-8" action="https://wb357.infusionsoft.com/app/form/process/d5eb5176326750282c96049fa86a3203" id="inf_form_d5eb5176326750282c96049fa86a3203" method="POST" style="max-width:759px;margin:0 auto">
-
-						<!-- Hidden Inputs -->
-
-						<input name="inf_form_xid" type="hidden" value="d5eb5176326750282c96049fa86a3203" />
-						<input name="inf_form_name" type="hidden" value="Tour Requested" />
-						<input name="infusionsoft_version" type="hidden" value="1.70.0.58116" />
-
-						<!-- Visible Content -->
-
-						<h1 class="text-l-mob">Request to visit EduInc for a tour</h1>
-
-						<p>To experience EduInc Boutique School for yourself, please complete the following information and one of our team will call you to schedule an appointment.</p>
-
-						<h3 data-mce-mark="1">Parent's Information</h3>
-
-						<div class="infusion-inputs flow-ttb-mob spread">
-
-							<label class="width-100-mob text-l-mob" for="inf_field_FirstName">
-									<span>First Name</span>
-									<input id="inf_field_FirstName" name="inf_field_FirstName" type="text" />
-							</label>
-
-							<label class="width-100-mob text-l-mob" for="inf_field_LastName">
-									<span>Last Name</span>
-									<input id="inf_field_LastName" name="inf_field_LastName" type="text" />
-							</label>
-
-							<label class="width-100-mob text-l-mob" for="inf_field_Email">
-									<span>Email</span>
-									<input id="inf_field_Email" name="inf_field_Email" type="text" />
-							</label>
-
-							<label class="width-100-mob text-l-mob" for="inf_field_Phone1">
-									<span>Cell Phone</span>
-									<input id="inf_field_Phone1" name="inf_field_Phone1" type="text" />
-							</label>
-
-						</div>
-
-						<h3>Child's Information</h3>
-
-						<div class="infusion-inputs flow-ttb-mob spread">
-
-							<label class="width-100-mob text-l-mob" for="inf_custom_ChildFIRSTName">
-								<span>Child's FIRST Name</span>
-								<input id="inf_custom_ChildFIRSTName" name="inf_custom_ChildFIRSTName" type="text" />
-							</label>
-
-							<label class="width-100-mob text-l-mob" for="inf_custom_CHILDGrade1">
-								<span>Current Grade</span>
-								<input id="inf_custom_CHILDGrade1" name="inf_custom_CHILDGrade1" type="text" />
-							</label>
-
-							<label class="width-100-mob text-l-mob" for="inf_custom_CHILDCurrentSchool">
-								<span>Current School</span>
-								<input id="inf_custom_CHILDCurrentSchool" name="inf_custom_CHILDCurrentSchool" type="text" />
-							</label>
-
-						</div>
-
-						<p>Your tour will include a meeting with our Headmaster to discuss your particular needs and to answer any questions you may have.</p>
-
-						<p>In order for him to adequately prepare for your meeting, we may request additional information and documentation before your visit (such as reports, study permits, etc.)</p>
-
-						<p>Thank you for your interest in our school, we look forward to meeting you and showing you around.</p>
-
-						<p><strong>NB:</strong> If you have not already <a href="http://educationincorporated.co.za/landing-pages/lpprospectusws.html" nottracked="true" shape="rect">downloaded our prospectus</a>, we recommend you take a few minutes to do so before visiting us. We also recommend you <a href="http://educationincorporated.co.za/landing-pages/lpoptinbook01aws.html" nottracked="true" shape="rect">download and read our book</a> on how to select the right school for your child.</p>
-
-						<div class="flow-ttb-mob align-fs-mob">
-							<button type="submit" class="theme-blue" aria-label="button">Request Tour</button>
-						</div>
-
-					</form>
-
-					<script type="text/javascript" src="https://wb357.infusionsoft.com/app/webTracking/getTrackingCode"></script>
-					<script type="text/javascript" src="https://wb357.infusionsoft.com/app/timezone/timezoneInputJs?xid=d5eb5176326750282c96049fa86a3203"></script>
+					<!--
+                    Mailerlite Form
+                    -->
+                    <div class="ml-form-embed" data-account="1075222:a1x7q3p3t9" data-form="2041404:w4u3n9">
+                    </div>
 
 				</article>
 
