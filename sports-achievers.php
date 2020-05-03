@@ -70,7 +70,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -119,7 +119,7 @@
 
 					<p>We also recognise the sports achievements of our students, despite the fact that the school does not offer the sport, in the form of colours and honours awards. Colours are awarded for competing at provincial level, and Honours are awarded after this has been achieved for three years. Honours are automatically awarded if the student is competing at Junior Springbok level.</p>
 
-					<p>Make an appointment to <a href="#contact">come and see what we do</a>, how we do it, and if our values match yours and your child's.</p>
+					<p>Make an appointment to <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener">come and see what we do</a>, how we do it, and if our values match yours and your child's.</p>
 
 				</article>
 

@@ -196,7 +196,7 @@
 
 					<h2 class="text-underline-red">We Have a Unique Perspective on Education</h2>
 
-					<p>With our very small classes, each child is assured <strong>personal attention</strong> from our qualified and caring teachers. As a mainstream GDE-registered and Umalusi-accredited school, our Matrics write the same exams as the other private IEB schools you are familiar with. We’re extremely proud of our <strong>100% pass rate</strong> and look forward to <a href="#contact" aria-label="contact us">answering any questions</a> you may have about EduInc.</p>
+					<p>With our very small classes, each child is assured <strong>personal attention</strong> from our qualified and caring teachers. As a mainstream GDE-registered and Umalusi-accredited school, our Matrics write the same exams as the other private IEB schools you are familiar with. We’re extremely proud of our <strong>100% pass rate</strong> and look forward to <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener" aria-label="contact us">answering any questions</a> you may have about EduInc.</p>
 
 				</div>
 

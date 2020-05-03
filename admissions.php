@@ -70,7 +70,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -116,7 +116,7 @@
 					<p>Since Education Incorporated is a private boutique school with very small classes, space in each grade is limited. We therefore begin our journey together with meeting the headmaster and a short tour of the school.</p>
 					<p>Our trial week is an immersive experience where your child attends classes for a week and encompasses academic and social assessments. These are followed by an interview with you and your child to determine whether Education Incorporated is the right fit for your family.</p>
 					<p>While enrolment is usually scheduled for the beginning of the following academic year, or the next academic term, we may under certain circumstances accept and admit your child immediately. It is possible you may be placed on a waiting list and be notified should a place for your child become available.</p>
-					<p>When <a href="http://tiny.cc/eduinctour" target="_blank">attending the tour</a>, please remember to bring your child's three most recent school reports and any clinical information of which we should be aware. Should a trial week be recommended, you will be required to provide personal information and sign an indemnity form first. As your first step, we recommend <a href="landing-pages/lpprospectusws.html">downloading our Prospectus</a>.</p>
+					<p>When <a href="http://tiny.cc/eduinctour" target="_blank">attending the tour</a>, please remember to bring your child's three most recent school reports and any clinical information of which we should be aware. Should a trial week be recommended, you will be required to provide personal information and sign an indemnity form first. As your first step, we recommend <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener">downloading our Prospectus</a>.</p>
 					<p><a href="fees.php">Our fees calculator</a> will detail exactly what your school fees would be.</p>
 
 					<h3>Grades We Teach</h3>
@@ -154,7 +154,7 @@
 
 					<p>
 						<ul class="list-check">
-							<li><a href="landing-pages/lpprospectusws.html">Download our Prospectus</a></li>
+							<li><a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener">Download our Prospectus</a></li>
 							<li>Query and motivation</li>
 							<li><a href="http://tiny.cc/eduinctour" target="_blank">Personal tour</a> with our Headmaster</li>
 							<li>Pre-interview with parents</li>

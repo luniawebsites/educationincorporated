@@ -46,6 +46,17 @@
 		<?php include("assets/critical.min.css"); ?>
 	</style>
 
+    <!-- MailerLite Universal -->
+    <script>
+        (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+        var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+        f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+        var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+        .parentNode.insertBefore(r,);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+        var ml_account = ml('accounts', '1075222', 'a1x7q3p3t9', 'load');
+    </script>
+    <!-- End MailerLite Universal -->
+
 </head>
 
 <body class="theme-dark-grey">
@@ -59,7 +70,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -141,7 +152,7 @@
 					<em class="accent-red border-l-mob"><strong>Tears, sore tummies, excessive anxiety.</strong> Any or all of these happening most days in the car on the way to school needs further appropriate investigation. The behaviour is coming from somewhere, whether it is to play you for sympathy, or the opposite extreme where there is bullying, feelings of inadequacy or too much pressure and inadequate coping skills to appropriately deal with the problems.</em>
 
 					<em class="accent-red border-l-mob"><strong>What is my child really saying?</strong> The modern child expects (and is expected) to have their own viewpoints, opinions and freedom to ask questions, especially when it comes to upholding their fundamental rights. We refer to this as <strong>your child's voice</strong> or your child having a voice. However, many children are not yet equipped with the vocabulary required to express their evolving feelings.</em>
-					
+
 					<p>We also share some real-life case studies that will give you more insight into our process and values.</p>
 
 					<!-- Audio clip -->

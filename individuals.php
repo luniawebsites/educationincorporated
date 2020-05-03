@@ -119,7 +119,7 @@
 
 					<em class="radius-mob theme-grey accent-blue">We focus on creating an environment that recognises and nurtures the potential of each individual child through a mentored style of teaching, in very small classes, allowing them to identify their strengths in a supportive, collaborative environment.</em>
 
-					<p>Make an appointment to <a href="#contact">come and see what we do</a>, how we do it, and if our values match yours and your child's.</p>
+					<p>Make an appointment to <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener">come and see what we do</a>, how we do it, and if our values match yours and your child's.</p>
 
 				</article>
 

@@ -70,7 +70,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -121,7 +121,7 @@
 
 					<p>Our very small classes and mentored teaching style, combined with training courses for students who are interested, facilitate the entrepreneurial development of our students.</p>
 
-					<p>Make an appointment to <a href="#contact">come and see what we do</a>, how we do it, and if our values match yours and your child's.</p>
+					<p>Make an appointment to <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener">come and see what we do</a>, how we do it, and if our values match yours and your child's.</p>
 
 				</article>
 
