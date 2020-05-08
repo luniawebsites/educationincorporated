@@ -50,6 +50,9 @@
 
 <body class="theme-dark-grey">
 
+<meta http-equiv="refresh" content="10; url=https://tiny.cc/eduincassembly">
+
+
 	<!--
 	PARTIAL > Google Tag Manager body script
 	-->
@@ -74,7 +77,7 @@
 		
 			<h1 class="pad-respond-t-mob text-underline-red">Welcome to Assembly :-)</h1>
 
-			<p>Our next assembly Meet starts at 07h30 on Tuesday 5 May 2020 — please connect from 07h15</p>
+			<p>Our next assembly <strong>Meet</strong> starts at 09h45 on Friday 8 May 2020</p>
 
 			<div class="flow-ttb-mob flow-ltr-tab constrain pad-respond-y-mob align-fs-tab">
 
