@@ -72,14 +72,14 @@
 		-->
 		<section class="pad-respond-xy-mob theme-white border-b-mob shadow-t-mob">
 		
-			<h1 class="pad-respond-t-mob text-underline-red">Thank you for requesting a Remote Trial Week</h1>
+			<h1 class="pad-respond-t-mob text-underline-red">Thank you for requesting a tour</h1>
 
 			<div class="flow-ttb-mob flow-ltr-tab constrain pad-respond-y-mob align-fs-tab">
 
 				<!--
 				Main content
 				-->
-				<p>One of our team will contact you shortly to confirm a virtual meeting with our school Heads to discuss a Remote Trial Week for your child. This will usually be the same day, or else the morning of the first working day after you submitted your request. If something goes awry and you haven't heard from us by mid-morning, please call 011 467 8015 and ask Mr. Garridigan to assist you. Before then, we do recommend you download our prospectus and book (you can even listen to a few of our podcast episodes) so that you already know more about us and can ask questions that are specific to your needs and concerns. We look forward to meeting you and assisting your family.</p>
+				<p>One of our team will contact you shortly to confirm a date and time when you can come in and see our school for yourself. This will usually be the same day, or else the morning of the first working day after you submitted your request. If something goes awry and you haven't heard from us by mid-morning, please call 011 467 8015 and ask Mr. Garridigan to assist you. Before your visit, we recommend you download our prospectus and book (you can even listen to a few of our podcast episodes) so that you already know more about us and can ask questions that are specific to your needs and concerns. We look forward to meeting you and assisting your family.</p>
 
 			</div>
 
