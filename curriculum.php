@@ -70,7 +70,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -116,6 +116,8 @@
 					<p>Education Incorporated is a registered IEB school and writes the IEB examinations. The IEB is not a curriculum, it is an examination board. Visit their website <a href="http://www.ieb.co.za/" target="_blank" rel="noopener">for more detailed information</a>.</p>
 					<p>For a private school to write the grade 12 National Senior Certificate (NSC), the school needs to be <a href="http://www.umalusi.org.za/services.php?cat=Accreditation" target="_blank" rel="noopener">accredited by Umalusi</a> so that it can apply to be an examination venue. Being a registered school with the GDE does not automatically make a school an examination venue. The Umalusi accreditation process is very costly and laborious, but it does ensure a minimum standard for schools and service delivery.</p>
 					<p><a href="http://www.isasa.org/" target="_blank" rel="noopener">As an ISASA member</a>, we adhere to the ISASA independent/private schools calendar, which is three terms. Students are examined twice a year&mdash;in June/July and October/November.</p>
+
+                    <p>Accredited by Umalusi, Council for Quality Assurance in General and Further Education and Training (Accreditation Number 17SCH0100420).</p>
 
 					<h3>Grades We Teach</h3>
 
