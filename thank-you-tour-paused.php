@@ -34,7 +34,7 @@
 	-->
 	<?php include("assets/partials/base-url.html"); ?>
 
-	<title>Assembly</title>
+	<title>Thank You!</title>
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
 	<link rel="dns-prefetch" href="https://educationincorporated.co.za/">
@@ -49,9 +49,6 @@
 </head>
 
 <body class="theme-dark-grey">
-
-<meta http-equiv="refresh" content="10; url=https://tiny.cc/eduincassembly">
-
 
 	<!--
 	PARTIAL > Google Tag Manager body script
@@ -75,16 +72,14 @@
 		-->
 		<section class="pad-respond-xy-mob theme-white border-b-mob shadow-t-mob">
 		
-			<h1 class="pad-respond-t-mob text-underline-red">Welcome to Assembly :-)</h1>
-
-			<p>Our next assembly <strong>Meet</strong> starts at 09h45 on Friday 8 May 2020</p>
+			<h1 class="pad-respond-t-mob text-underline-red">Thank you for requesting a tour</h1>
 
 			<div class="flow-ttb-mob flow-ltr-tab constrain pad-respond-y-mob align-fs-tab">
 
 				<!--
 				Main content
 				-->
-				<p>Ensure you have the <a href="https://chrome.google.com/webstore/detail/google-meet-grid-view/kklailfgofogmmdlhgmjgenehkjoioip?hl=en">Chrome Grid View Extension</a> installed and enabled. Then you can <a href="https://tiny.cc/eduincassembly">click here </a> to check if assembly has started. Remember to <strong>MUTE</strong> your microphone and leave your <strong>CAMERA ON</strong>.</p>
+				<p>One of our team will contact you shortly to confirm a date and time when you can come in and see our school for yourself. This will usually be the same day, or else the morning of the first working day after you submitted your request. If something goes awry and you haven't heard from us by mid-morning, please call 011 467 8015 and ask Mr. Garridigan to assist you. Before your visit, we recommend you download our prospectus and book (you can even listen to a few of our podcast episodes) so that you already know more about us and can ask questions that are specific to your needs and concerns. We look forward to meeting you and assisting your family.</p>
 
 			</div>
 
