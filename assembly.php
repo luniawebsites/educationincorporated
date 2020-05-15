@@ -77,7 +77,7 @@
 		
 			<h1 class="pad-respond-t-mob text-underline-red">Welcome to Assembly :-)</h1>
 
-			<p>Our next assembly <strong>Meet</strong> starts at 09h45 on Friday 8 May 2020</p>
+			<p>Assembly <strong>Meets</strong> start at 09h45 on Fridays</p>
 
 			<div class="flow-ttb-mob flow-ltr-tab constrain pad-respond-y-mob align-fs-tab">
 
