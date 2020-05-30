@@ -78,13 +78,15 @@
 			<h1 class="pad-respond-t-mob text-underline-red">Welcome to Assembly :-)</h1>
 
 			<p>Assembly <strong>Meets</strong> start at 09h45 on Fridays</p>
-
+			<p>See the points and birthdays <a href="http://myschool.org.za/EduInc/dashboard01.html">dashboard</a> for House and Student of the Week.</p>
+			<p>Have you listened to our latest <a href="https://solidgoldstudios.co.za/channel.php?title=education-incorporated">podcast</a> ?</p>
+			
 			<div class="flow-ttb-mob flow-ltr-tab constrain pad-respond-y-mob align-fs-tab">
 
 				<!--
 				Main content
 				-->
-				<p>Ensure you have the <a href="https://chrome.google.com/webstore/detail/google-meet-grid-view/kklailfgofogmmdlhgmjgenehkjoioip?hl=en">Chrome Grid View Extension</a> installed and enabled. Then you can <a href="https://tiny.cc/eduincassembly">click here </a> to check if assembly has started. Remember to <strong>MUTE</strong> your microphone and leave your <strong>CAMERA ON</strong>.</p>
+				<p>Ensure you have the <a href="https://chrome.google.com/webstore/detail/google-meet-grid-view/kklailfgofogmmdlhgmjgenehkjoioip?hl=en">Chrome Grid View Extension</a> installed and enabled.</br>You can <a href="https://tiny.cc/eduincassembly">click here </a> to check if assembly has started.</br>Remember to <strong>MUTE</strong> your microphone and leave your <strong>CAMERA ON</strong>.</p>
 
 			</div>
 
