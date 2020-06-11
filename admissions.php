@@ -113,11 +113,17 @@
 
 					<span class="article__author-name">By Gershom Aitchison</span>
 
-					<p>Since Education Incorporated is a private boutique school with very small classes, space in each grade is limited. We therefore begin our journey together with meeting the headmaster and a short tour of the school.</p>
-					<p>Our trial week is an immersive experience where your child attends classes for a week and encompasses academic and social assessments. These are followed by an interview with you and your child to determine whether Education Incorporated is the right fit for your family.</p>
-					<p>While enrolment is usually scheduled for the beginning of the following academic year, or the next academic term, we may under certain circumstances accept and admit your child immediately. It is possible you may be placed on a waiting list and be notified should a place for your child become available.</p>
-					<p>When <a href="http://tiny.cc/eduinctour" target="_blank">attending the tour</a>, please remember to bring your child's three most recent school reports and any clinical information of which we should be aware. Should a trial week be recommended, you will be required to provide personal information and sign an indemnity form first. As your first step, we recommend <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener">downloading our Prospectus</a>.</p>
-					<p><a href="fees.php">Our fees calculator</a> will detail exactly what your school fees would be.</p>
+					<p>Education Incorporated is a private boutique school with very small classes, so space in each grade is limited. We therefore begin our journey together with you meeting the headmaster (on a Zoom/Meet call during some lock-down stages) and (when we're back on campus) a short tour of the school. If there is a proverbial meeting of the minds and we're a potential match, this is followed by a Trial Week for your child.</p>
+
+                    <p>Our Trial Week is an immersive experience where your child attends classes for a week and it encompasses academic and social assessments. These are followed by an interview with you and your child to determine whether Education Incorporated is the right fit for your family.</p>
+
+                    <p>During various lock-down stages, our Trial Week is done remotely, with your child joining our <strong>Schooling-at-Home</strong> for the full experience of how we're operating.</p>
+
+                    <p>While enrolment is usually scheduled for the beginning of the following academic year, or the next academic term, we may under certain circumstances accept and admit your child immediately. It is possible you may be placed on a waiting list and be notified should a place for your child become available.</p>
+
+                    <p>When attending the tour, please remember to bring your child's three most recent school reports and any clinical information of which we should be aware. Should a Trial Week be recommended, you will be required to provide personal information and sign an indemnity form first. As your first step, we recommend <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener">downloading our Prospectus</a>.</p>
+
+                    <p><a href="fees.php">Our fees calculator</a> will detail exactly what your school fees would be.</p>
 
 					<h3>Grades We Teach</h3>
 

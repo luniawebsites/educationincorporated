@@ -59,7 +59,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -71,8 +71,9 @@
 		Main content
 		-->
 		<section class="pad-respond-xy-mob theme-white border-b-mob shadow-t-mob">
-		
-			<h1 class="pad-respond-t-mob text-underline-red">Thank you for requesting a tour</h1>
+
+			<!-- <h1 class="pad-respond-t-mob text-underline-red">Thank you for requesting a tour</h1> -->
+            <h1 class="pad-respond-t-mob text-underline-red">Thank you for requesting a Remote Trial Week</h1>
 
 			<div class="flow-ttb-mob flow-ltr-tab constrain pad-respond-y-mob align-fs-tab">
 
