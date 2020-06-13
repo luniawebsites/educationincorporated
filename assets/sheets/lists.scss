@@ -41,7 +41,7 @@
 
 ol.list-reference li {
 	position: relative;
-	margin: 0.5rem 0 0.5rem calc(#{$space-desktop} * -0.4);	
+	margin: 0.5rem 0 0.5rem calc(#{$space-desktop} * -0.4);
 	font-size: 0.85rem;
 	line-height: 1.2rem;
 	list-style-type: decimal;
@@ -387,6 +387,12 @@ ul.list-flush {
 .list-icon .website:before {
 	@include list-icon;
 	content: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill-rule='evenodd' clip-rule='evenodd' stroke-linejoin='round' stroke-miterlimit='1.414'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23f9f9f9'/%3E%3Cpath d='M24 12.785H6v6.965a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6.965z' fill='none' stroke='%2356b6c2'/%3E%3Cpath d='M24 10.25a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v2.535h18V10.25z' fill='%2356b6c2' stroke='%2356b6c2'/%3E%3Cg fill='%23fff'%3E%3Cpath d='M8.417 11.518a1 1 0 0 0 .704-.297c.186-.187.296-.44.296-.703 0-.264-.11-.517-.296-.704a1.003 1.003 0 0 0-.704-.296c-.263 0-.516.11-.703.296a1 1 0 0 0-.297.704 1 1 0 0 0 .297.703c.187.198.44.297.703.297zM11.377 11.518a1 1 0 0 0 .703-.297 1 1 0 0 0 .297-.703 1 1 0 0 0-.297-.704 1.003 1.003 0 0 0-.703-.296c-.264 0-.517.11-.704.296-.186.187-.296.44-.296.704 0 .263.11.516.296.703.187.198.44.297.704.297zM14.336 11.518c.264 0 .517-.11.703-.297a1 1 0 0 0 .297-.703 1 1 0 0 0-.297-.704 1 1 0 0 0-.703-.296c-.264 0-.516.11-.703.296a1 1 0 0 0-.297.704 1 1 0 0 0 .297.703.954.954 0 0 0 .703.297z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+// Review
+.list-icon .review:before {
+	@include list-icon;
+	content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' style='isolation:isolate' viewBox='0 0 30 30'%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath d='M0 0h30v30H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg fill-rule='evenodd' clip-path='url(%23a)'%3E%3Cpath d='M30 15c0-8.279-6.721-15-15-15S0 6.721 0 15s6.721 15 15 15 15-6.721 15-15z' fill='%23F9F9F9'/%3E%3Cpath d='M14.524 5.515a.5.5 0 0 1 .952 0l2.005 6.173a.5.5 0 0 0 .476.345h6.49a.5.5 0 0 1 .294.905l-5.251 3.815a.5.5 0 0 0-.181.559l2.005 6.173a.5.5 0 0 1-.769.559l-5.251-3.815a.501.501 0 0 0-.588 0l-5.251 3.815a.501.501 0 0 1-.769-.559l2.005-6.173a.5.5 0 0 0-.181-.559l-5.251-3.815a.5.5 0 0 1 .294-.905h6.49a.5.5 0 0 0 .476-.345l2.005-6.173z' fill='%23FFB526'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 /* Tablet viewport

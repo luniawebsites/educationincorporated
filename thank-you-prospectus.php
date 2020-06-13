@@ -59,7 +59,7 @@
 	PARTIAL > Browse Happy outdated browser notice
 	-->
 	<?php include("assets/partials/browse-happy.html"); ?>
-	
+
 	<!--
 	PARTIAL > Page leader with logo and desktop menu
 	-->
@@ -71,7 +71,7 @@
 		Main content
 		-->
 		<section class="pad-respond-xy-mob theme-white border-b-mob shadow-t-mob">
-		
+
 			<h1 class="pad-respond-t-mob text-underline-red">Our prospectus is on its way</h1>
 
 			<div class="flow-ttb-mob flow-ltr-tab constrain pad-respond-y-mob align-fs-tab">
@@ -79,7 +79,8 @@
 				<!--
 				Main content
 				-->
-				<p>Thank you for your interest in our school. As an anti-spam measure, a confirmation mail is on its way to you. Please click the link in that mail and you'll imemdiately receive the download link for our prospectus. While you wait, perhaps take a few more minutes to explore our site and see what a school with such small classes can do for your child. You can also download our book and book a tour.</p>
+				<!-- <p>Thank you for your interest in our school. As an anti-spam measure, a confirmation mail is on its way to you. Please click the link in that mail and you'll imemdiately receive the download link for our prospectus. While you wait, perhaps take a few more minutes to explore our site and see what a school with such small classes can do for your child. You can also download our book and book a tour.</p> -->
+                <p>Thank you for your interest in our school. As an anti-spam measure, a confirmation mail is on its way to you. Please click the link in that mail and you'll imemdiately receive the download link for our prospectus. While you wait, perhaps take a few more minutes to explore our site and see what a school with such small classes can do for your child. You can also download our book and request a remote trial week.</p>
 
 			</div>
 
