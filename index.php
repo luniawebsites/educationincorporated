@@ -154,7 +154,7 @@
 		Gardening 101 Video
 		-->
 
-<!--		
+<!--
 			<section class="pad-respond-xy-mob theme-white border-b-mob">
 -->
 
@@ -162,7 +162,7 @@
 			Section header
 			-->
 
-<!--			
+<!--
 				<header class="constrain pad-respond-t-mob pad-double-b-mob">
 
 				<h2 class="text-underline-red">Gardening 101 on Location at EduInc</h2>
@@ -184,7 +184,7 @@
 			</div>
 
 		</section>
--->		
+-->
 
 		<!--
 		Unique perspective
@@ -202,7 +202,7 @@
 
 <!--
 					<h2 class="text-underline-red">We Have a Unique Perspective on Education</h2>
--->					
+-->
 
 					<h2 class="text-underline-red">We are still open — remotely</h2>
 
@@ -977,6 +977,25 @@
 		PARTIAL > Contact form
 		-->
 		<?php include("assets/partials/contact-form.html"); ?>
+
+        <!--
+		Reviews
+		-->
+
+		<section class="pad-respond-xy-mob theme-grey">
+
+            <!--
+            Container
+            -->
+
+            <div class="flow-ttb-mob flow-ltr-tab constrain spread pad-y-mob align-s-tab">
+
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-02c59ea3-74f1-4d14-90e7-367e760c1c65"></div>
+
+            </div>
+
+        </section>
 
 	</main>
 
