@@ -978,25 +978,6 @@
 		-->
 		<?php include("assets/partials/contact-form.html"); ?>
 
-        <!--
-		Reviews
-		-->
-
-		<section class="pad-respond-xy-mob theme-grey">
-
-            <!--
-            Container
-            -->
-
-            <div class="flow-ttb-mob flow-ltr-tab constrain spread pad-y-mob align-s-tab">
-
-                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                <div class="elfsight-app-c34b0047-81a6-4798-a035-d0c42af54ab4"></div>
-
-            </div>
-
-        </section>
-
 	</main>
 
 	<!--
