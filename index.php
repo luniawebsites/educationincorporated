@@ -3,987 +3,1019 @@
 
 <head>
 
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5, user-scalable=yes" />
 
-	<!--
-	PARTIAL > Base URL
-	-->
-	<?php include("assets/partials/base-url.html"); ?>
+    <!--
+    PARTIAL > Base URL
+    -->
+    <?php include("assets/partials/base-url.html"); ?>
 
-	<!--
-	PARTIAL > Google Tag Manager head script
-	-->
-	<?php include("assets/partials/google-tag-manager-head.html"); ?>
+    <!--
+    PARTIAL > Google Tag Manager head script
+    -->
+    <?php include("assets/partials/google-tag-manager-head.html"); ?>
 
-	<!--
-	PARTIAL > Global scripts
-	-->
-	<?php include("assets/partials/global-scripts.html"); ?>
+    <!--
+    PARTIAL > Global scripts
+    -->
+    <?php include("assets/partials/global-scripts.html"); ?>
 
-	<!--
-	LINK & PARTIAL > Async-load non-critical CSS
-	-->
+    <!--
+    LINK & PARTIAL > Async-load non-critical CSS
+    -->
 
-	<link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
-	<?php include("assets/partials/loadCSS.html"); ?>
+    <link rel="preload" href="assets/non-critical.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/non-critical.min.css"></noscript>
+    <?php include("assets/partials/loadCSS.html"); ?>
 
-	<meta name="keywords" content="Education Incorporated Boutique School" />
-	<meta name="description" content="" />
-	<meta name="robots" content="index, follow">
-	<meta name="pagename" content="Education Incorporated Boutique School">
-	<meta name="subtitle" content="">
-	<meta name="HandheldFriendly" content="true">
-	<meta name="MobileOptimized" content="320">
-	<meta property="og:title" content="Education Incorporated Boutique School" />
-	<meta property="og:keywords" content="" />
-	<meta property="og:description" content="" />
-	<meta property="og:locale" content="en_ZA" />
-	<meta property="og:url" content="https://educationincorporated.co.za/" />
-	<meta property="og:image" content="https://educationincorporated.co.za/assets/images/education-incorporated-logo.png" />
-	<meta property="og:type" content="website" />
-	<link rel="canonical" href="https://educationincorporated.co.za/" />
-	<title>Education Incorporated Boutique School</title>
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
-	<link rel="dns-prefetch" href="https://educationincorporated.co.za/">
+    <meta name="keywords" content="Education Incorporated Boutique School" />
+    <meta name="description" content="" />
+    <meta name="robots" content="index, follow">
+    <meta name="pagename" content="Education Incorporated Boutique School">
+    <meta name="subtitle" content="">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta property="og:title" content="Education Incorporated Boutique School" />
+    <meta property="og:keywords" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:locale" content="en_ZA" />
+    <meta property="og:url" content="https://educationincorporated.co.za/" />
+    <meta property="og:image" content="https://educationincorporated.co.za/assets/images/education-incorporated-logo.png" />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="https://educationincorporated.co.za/" />
+    <title>Education Incorporated Boutique School</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+    <link rel="dns-prefetch" href="https://educationincorporated.co.za/">
 
-	<!--
-	STYLES > Critical CSS
-	-->
-	<style type="text/css">
-		<?php include("assets/critical.min.css"); ?>
-	</style>
+    <!--
+    STYLES > Critical CSS
+    -->
+    <style type="text/css">
+        <?php include("assets/critical.min.css"); ?>
+    </style>
 
-	<!--
-	SCRIPT > Structured data
-	-->
-	<script type="application/ld+json">
-		{
-		"@context": "http://schema.org",
-		"@type": "Corporation",
-		"id": "https://educationincorporated.co.za",
-		"url": "https://educationincorporated.co.za",
-		"name": "Education Incorporated",
-		"description": "We offer you the highest standard of private schooling with qualified teachers who ensure positive affirmation throughout the learning process.",
-		"logo": "http://www.educationincorporated.co.za/assets/images/education-incorporated-logo.png",
-		"image": "http://www.educationincorporated.co.za/assets/images/education-incorporated-campus.jpg",
-		"contactPoint": {
-			"@type": "ContactPoint",
-			"telephone": "+27-11-467-8015",
-			"contactType": "Customer service"
-			},
-		"address": {
-			"@type": "PostalAddress",
-			"streetAddress": "40 Kingfisher Drive",
-			"addressLocality": "Fourways",
-			"addressRegion": "Gauteng",
-			"addressCountry": "South Africa"
-			},
-		"sameAs": [
-			"https://www.facebook.com/Eduinc.co.za/",
-			"https://www.youtube.com/channel/UChJ4pGzP_dOPeYFQu5iUwOA/",
-			"http://www.isasaschoolfinder.co.za/keyword_search.htm?keywordSearch=1434-EDUcation-INCorporated-%28Primary%29",
-			"http://www.isasaschoolfinder.co.za/keyword_search.htm?keywordSearch=1435-EDUcation-INCorporated-%28Secondary%29"
-			]
-		}
-	</script>
+    <!--
+    SCRIPT > Structured data
+    -->
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "Corporation",
+        "id": "https://educationincorporated.co.za",
+        "url": "https://educationincorporated.co.za",
+        "name": "Education Incorporated",
+        "description": "We offer you the highest standard of private schooling with qualified teachers who ensure positive affirmation throughout the learning process.",
+        "logo": "http://www.educationincorporated.co.za/assets/images/education-incorporated-logo.png",
+        "image": "http://www.educationincorporated.co.za/assets/images/education-incorporated-campus.jpg",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+27-11-467-8015",
+            "contactType": "Customer service"
+            },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "40 Kingfisher Drive",
+            "addressLocality": "Fourways",
+            "addressRegion": "Gauteng",
+            "addressCountry": "South Africa"
+            },
+        "sameAs": [
+            "https://www.facebook.com/Eduinc.co.za/",
+            "https://www.youtube.com/channel/UChJ4pGzP_dOPeYFQu5iUwOA/",
+            "http://www.isasaschoolfinder.co.za/keyword_search.htm?keywordSearch=1434-EDUcation-INCorporated-%28Primary%29",
+            "http://www.isasaschoolfinder.co.za/keyword_search.htm?keywordSearch=1435-EDUcation-INCorporated-%28Secondary%29"
+            ]
+        }
+    </script>
 
 </head>
 
 <body class="theme-dark-grey">
 
-	<!--
-	PARTIAL > Google Tag Manager body script
-	-->
-	<?php include("assets/partials/google-tag-manager-body.html"); ?>
+    <!--
+    PARTIAL > Google Tag Manager body script
+    -->
+    <?php include("assets/partials/google-tag-manager-body.html"); ?>
 
-	<!--
-	PARTIAL > Browse Happy outdated browser notice
-	-->
-	<?php include("assets/partials/browse-happy.html"); ?>
+    <!--
+    PARTIAL > Browse Happy outdated browser notice
+    -->
+    <?php include("assets/partials/browse-happy.html"); ?>
 
-	<!--
-	PARTIAL > Page leader with logo and desktop menu
-	-->
-	<?php include("assets/partials/page-leader.html"); ?>
+    <!--
+    PARTIAL > Page leader with logo and desktop menu
+    -->
+    <?php include("assets/partials/page-leader.html"); ?>
 
-	<main>
+    <main>
 
-		<!--
-		Page header
-		-->
+        <!--
+        Page header
+        -->
 
-		<header class="hero image-hero pad-respond-xy-mob theme-dark-grey border-b-mob">
+        <header class="hero image-hero pad-respond-xy-mob theme-dark-grey border-b-mob">
 
-			<!--
-			Container
-			-->
+            <!--
+            Container
+            -->
 
-			<div class="flow-ttb-mob height-100 constrain pad-respond-t-mob align-c-mob">
+            <div class="flow-ttb-mob height-100 constrain pad-respond-t-mob align-c-mob">
 
-				<img src="assets/images/education-incorporated-logo.png" alt="education incorporated logo" />
+                <img src="assets/images/education-incorporated-logo.png" alt="education incorporated logo" />
 
-				<div class="pad-t-mob">
+                <div class="pad-t-mob">
 
-						<h1>Not a single hour of teaching has been lost as we moved to teaching online.</h1>
+                        <h1>Not a single hour of teaching has been lost as we moved to teaching online.</h1>
 
-						<div class="h2">Our admissions remain open if you need to <a class="no-break" href="tour-request-form.php">move your child.</a></div>
+                        <div class="h2">Our admissions remain open if you need to <a class="no-break" href="tour-request-form.php">move your child.</a></div>
 
                         <div class="h2">EduInc is a registered IEB <span class="no-break">Private School</span> teaching grades 4 to 12 with 10 children <span class="no-break">per class</span>.</div>
 
-						<div class="flow-ttb-mob margin-t-mob pad-respond-xy-mob">
+                        <div class="flow-ttb-mob margin-t-mob pad-respond-xy-mob">
 
-							<span class="bg-c-c-mob brand-teded"></span>
+                            <span class="bg-c-c-mob brand-teded"></span>
 
-						</div>
+                        </div>
 
                         <div class="flow-ttb-mob flow-ltr-tab spread pad-y-mob">
-    						<a class="button theme-red" href="https://sacoronavirus.co.za/" target="__blank" rel="noopener" id="covid19-response" aria-labelledby="covid19-response">COVID-19 Portal</a>
-    						<a class="button theme-red" href="covid19-response.php" id="covid19-portal" aria-labelledby="covid19-portal">COVID-19 Response</a>
-    					</div>
+                            <a class="button theme-red" href="https://sacoronavirus.co.za/" target="__blank" rel="noopener" id="covid19-response" aria-labelledby="covid19-response">COVID-19 Portal</a>
+                            <a class="button theme-red" href="covid19-response.php" id="covid19-portal" aria-labelledby="covid19-portal">COVID-19 Response</a>
+                        </div>
 
-				</div>
+                </div>
 
-			</div>
+            </div>
 
-		</header>
+        </header>
 
-		<!--
-		Gardening 101 Video
-		-->
-
-<!--
-			<section class="pad-respond-xy-mob theme-white border-b-mob">
--->
-
-			<!--
-			Section header
-			-->
+        <!--
+        Gardening 101 Video
+        -->
 
 <!--
-				<header class="constrain pad-respond-t-mob pad-double-b-mob">
-
-				<h2 class="text-underline-red">Gardening 101 on Location at EduInc</h2>
-
-				<p>Our beautiful gardens are designed to be used as outdoor teaching spaces and to provide a relaxing environment for our children and staff during breaks.</p>
-
-			</header>
+            <section class="pad-respond-xy-mob theme-white border-b-mob">
 -->
 
-			<!--
-			Container
-			-->
+            <!--
+            Section header
+            -->
 
 <!--
-			<div class="flow-ttb-mob flow-ltr-tab height-100 constrain spread-respond pad-respond-xy-mob align-c-mob radius-mob border-mob shadow-mob">
+                <header class="constrain pad-respond-t-mob pad-double-b-mob">
 
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/q3A00ZamA38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h2 class="text-underline-red">Gardening 101 on Location at EduInc</h2>
 
-			</div>
+                <p>Our beautiful gardens are designed to be used as outdoor teaching spaces and to provide a relaxing environment for our children and staff during breaks.</p>
 
-		</section>
+            </header>
 -->
 
-		<!--
-		Unique perspective
-		-->
-
-		<section class="pad-respond-xy-mob theme-grey border-b-mob">
-
-			<!--
-			Container
-			-->
-
-			<div class="flow-ttb-mob height-100 constrain pad-respond-y-mob align-c-mob">
-
-				<div class="">
+            <!--
+            Container
+            -->
 
 <!--
-					<h2 class="text-underline-red">We Have a Unique Perspective on Education</h2>
+            <div class="flow-ttb-mob flow-ltr-tab height-100 constrain spread-respond pad-respond-xy-mob align-c-mob radius-mob border-mob shadow-mob">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/q3A00ZamA38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+        </section>
 -->
 
-					<h2 class="text-underline-red">We are still open — remotely</h2>
+        <!--
+        We are still open
+        -->
 
-					<p>Our school is still open and we have Teachers in every class for a full teaching day. When shut-downs started, we had already pivoted to Schooling-at-Home, which is <strong>not</strong> the same as homeschooling, and we have not missed a single hour of teaching! We're following a <strong>full daily teaching timetable</strong> and the role of Parents is not to teach, but rather to ensure their child is at their dedicated Schooling-at-Home work space each day — our Teachers do the teaching.</p>
+        <section class="pad-respond-xy-mob theme-grey border-b-mob">
 
-					<p>If you have <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener" aria-label="contact us">any questions</a> you're grappling with, let us know. We're here to help.</p>
-					<p>If you're worried about your child falling behind, we're currently accepting new pupils for a <a class="no-break" href="tour-request-form.php">remote trial week</a> if you'd like to experience how Schooling-at-Home is working and how we can keep them on-track for the 2020 academic year.</p>
+            <!--
+            Container
+            -->
 
-					<p>With our very small classes, each child is assured <strong>personal attention</strong> from our qualified and caring teachers. As a mainstream GDE-registered and Umalusi-accredited school, our Matrics write the same exams as the other private IEB schools you are familiar with. We’re extremely proud of our <strong>100% pass rate</strong> and look forward to <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener" aria-label="contact us">answering any questions</a> you may have about EduInc.</p>
+            <div class="flow-ttb-mob height-100 constrain pad-respond-y-mob align-c-mob">
 
-				</div>
+                <div class="">
 
-			</div>
+                    <!--
+                    <h2 class="text-underline-red">We Have a Unique Perspective on Education</h2>
+                    -->
 
-			<!--
-			Container 1
-			-->
+                    <h2 class="text-underline-red">We are still open — remotely</h2>
 
-			<div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-respond-y-mob align-s-mob">
+                    <p>Our school is still open and we have Teachers in every class for a full teaching day. When shut-downs started, we had already pivoted to Schooling-at-Home, which is <strong>not</strong> the same as homeschooling, and we have not missed a single hour of teaching! We're following a <strong>full daily teaching timetable</strong> and the role of Parents is not to teach, but rather to ensure their child is at their dedicated Schooling-at-Home work space each day — our Teachers do the teaching.</p>
 
-				<!--
-				Item
-				-->
+                    <p>If you have <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener" aria-label="contact us">any questions</a> you're grappling with, let us know. We're here to help.</p>
+                    <p>If you're worried about your child falling behind, we're currently accepting new pupils for a <a class="no-break" href="tour-request-form.php">remote trial week</a> if you'd like to experience how Schooling-at-Home is working and how we can keep them on-track for the 2020 academic year.</p>
 
-				<figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
+                    <p>With our very small classes, each child is assured <strong>personal attention</strong> from our qualified and caring teachers. As a mainstream GDE-registered and Umalusi-accredited school, our Matrics write the same exams as the other private IEB schools you are familiar with. We’re extremely proud of our <strong>100% pass rate</strong> and look forward to <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener" aria-label="contact us">answering any questions</a> you may have about EduInc.</p>
 
-					<span class="bg-c-c-mob bg-l-c-tab icon-vision"></span>
+                </div>
 
-					<div class="grow pad-t-mob text-c-mob text-l-tab">
-						<h3>Our Vision</h3>
-						<p>Every child will leave us as an independent, confident, thinking young adult with the best (and most meaningful) Matric they can achieve, ready to follow their dreams and shape the future.</p>
-					</div>
+            </div>
 
-				</figure>
+        </section>
 
-				<!--
-				Item
-				-->
+        <!--
+        We are still open
+        -->
 
-				<figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
+        <section class="pad-respond-xy-mob theme-dark-grey border-b-mob">
 
-					<span class="bg-c-c-mob bg-l-c-tab icon-mission"></span>
+            <!--
+            Container
+            -->
 
-					<div class="grow pad-t-mob text-c-mob text-l-tab">
-						<h3>Our Mission</h3>
-						<p>To grow children through unwavering adherence to our core values into the thought-leaders of the future.</p>
-					</div>
+            <div class="flow-ttb-mob height-100 constrain pad-respond-y-mob align-c-mob">
 
-				</figure>
+                <h2 class="text-underline-red">Our Covid-19 response was recommended to <span class="no-break">President Cyril Ramaphosa</span></h2>
 
-			</div>
+                <p>When Covid-19 struck, EduInc's response was both swift and effective, prompting Kamal Panday (former principal who served on the Education Portfolio Committee for 10 years in National Parliament and the KZN Legislature) to recommend our methods to <span class="no-break">President Cyril Ramaphosa</span> as a model for other schools to follow.</p>
 
-			<!--
-			Container 2
-			-->
+                <p>
+                    <a href="assets/pdf/letter-president.pdf" aria-label="download the letter to the president" target="blank" rel="noopener"><strong>Read the letter</strong></a>
+                </p>
 
-			<div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-respond-b-mob align-s-mob">
+            </div>
 
-				<!--
-				Item
-				-->
+        </section>
 
-				<figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
+        <!--
+        Unique perspective
+        -->
 
-					<span class="bg-c-c-mob bg-l-c-tab icon-method"></span>
+        <section class="pad-respond-xy-mob theme-grey border-b-mob">
 
-					<div class="grow pad-t-mob text-c-mob text-l-tab">
-						<h3>Our Method</h3>
-						<p>We open and operate boutique schools with an unwavering commitment to high academic standards.</p>
-						</div>
+            <!--
+            Container 1
+            -->
 
-				</figure>
+            <div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-respond-y-mob align-s-mob">
 
-				<!--
-				Item
-				-->
+                <!--
+                Item
+                -->
 
-				<figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
+                <figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
 
-					<span class="bg-c-c-mob bg-l-c-tab icon-values"></span>
+                    <span class="bg-c-c-mob bg-l-c-tab icon-vision"></span>
 
-					<div class="width-100-mob grow pad-t-mob text-c-mob text-l-tab">
+                    <div class="grow pad-t-mob text-c-mob text-l-tab">
+                        <h3>Our Vision</h3>
+                        <p>Every child will leave us as an independent, confident, thinking young adult with the best (and most meaningful) Matric they can achieve, ready to follow their dreams and shape the future.</p>
+                    </div>
 
-						<h3>Our Values</h3>
+                </figure>
 
-						<!-- Audio clip -->
-						<div class="margin-y-mob">
-							<audio style="width:100%" controls src="https://podcaststudios.co.za/audio/eduinc/edu-inc-radio-ad-01.mp3" type="audio/mpeg" controlsList="nodownload"></audio>
-						</div>
+                <!--
+                Item
+                -->
 
-					</div>
-				</figure>
+                <figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
 
-			</div>
+                    <span class="bg-c-c-mob bg-l-c-tab icon-mission"></span>
 
-		</section>
+                    <div class="grow pad-t-mob text-c-mob text-l-tab">
+                        <h3>Our Mission</h3>
+                        <p>To grow children through unwavering adherence to our core values into the thought-leaders of the future.</p>
+                    </div>
 
-		<!--
-		PARTIAL > Photo strip
-		-->
-		<?php include("assets/partials/photo-strip.html"); ?>
+                </figure>
 
-		<!--
-		School accreditations
-		-->
+            </div>
 
-		<section class="pad-respond-xy-mob theme-white border-b-mob">
+            <!--
+            Container 2
+            -->
 
-			<!--
-			Section header
-			-->
+            <div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-respond-b-mob align-s-mob">
 
-			<header class="constrain pad-respond-y-mob">
+                <!--
+                Item
+                -->
 
-				<h2 class="text-underline-red">School Accreditations</h2>
+                <figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
 
-				<p>Education Incorporated is registered with the Gauteng Department of Education (JN700400746), Independent Examinations Board (IEB), Independent Schools Association of Southern Africa (ISASA) and Council for Quality Assurance in General and Further Education and <span class="no-break">Training (Umalusi)</span>.
-				</p>
+                    <span class="bg-c-c-mob bg-l-c-tab icon-method"></span>
 
-			</header>
+                    <div class="grow pad-t-mob text-c-mob text-l-tab">
+                        <h3>Our Method</h3>
+                        <p>We open and operate boutique schools with an unwavering commitment to high academic standards.</p>
+                        </div>
 
-			<!--
-			Container
-			-->
+                </figure>
 
-			<div class="flow-ttb-mob flow-ltr-tab height-100 constrain spread-respond pad-respond-xy-mob align-c-mob">
+                <!--
+                Item
+                -->
 
-					<a href="http://www.gauteng.gov.za/government/departments/education/" aria-label="visit gauteng province education department website" target="blank" rel="noopener">
-						<img src="assets/images/brands/gauteng-province-education-department.png" alt="gauteng province education department logo" width="160px" />
-					</a>
+                <figure class="flow-ttb-mob pad-respond-xy-mob align-fs-tab justify-fs-tab radius-mob theme-white border-mob shadow-mob">
 
-					<a href="http://www.ieb.co.za/" aria-label="visit independent examinations board website" target="blank" rel="noopener">
-						<img src="assets/images/brands/independent-examinations-board.png" alt="independent examinations board logo" width="75px" />
-					</a>
+                    <span class="bg-c-c-mob bg-l-c-tab icon-values"></span>
 
-					<a href="http://www.isasa.org/" aria-label="visit independent schools association of southern africa website" target="blank" rel="noopener">
-						<img src="assets/images/brands/independent-schools-association-of-southern-africa.png" alt="independent schools association of southern africa logo" width="90px" />
-					</a>
+                    <div class="width-100-mob grow pad-t-mob text-c-mob text-l-tab">
 
-					<a href="http://www.umalusi.org.za/" aria-label="visit umalusi website" target="blank" rel="noopener">
-						<img src="assets/images/brands/umalusi.png" alt="umalusi logo" width="200px" />
-					</a>
+                        <h3>Our Values</h3>
 
-			</div>
+                        <!-- Audio clip -->
+                        <div class="margin-y-mob">
+                            <audio style="width:100%" controls src="https://podcaststudios.co.za/audio/eduinc/edu-inc-radio-ad-01.mp3" type="audio/mpeg" controlsList="nodownload"></audio>
+                        </div>
 
-		</section>
+                    </div>
+                </figure>
 
-		<!--
-		Downloads
-		-->
+            </div>
 
-		<section class="theme-white">
+        </section>
 
-			<!--
-			Container
-			-->
+        <!--
+        PARTIAL > Photo strip
+        -->
+        <?php include("assets/partials/photo-strip.html"); ?>
 
-			<div class="flow-ttb-mob flow-ltr-tab align-s-tab">
+        <!--
+        School accreditations
+        -->
 
-				<!--
-				Item
-				-->
+        <section class="pad-respond-xy-mob theme-white border-b-mob">
 
-				<figure class="flow-ttb-mob pad-double-y-mob theme-white border-b-mob">
+            <!--
+            Section header
+            -->
 
-					<a href="landing-book-form.php" aria-labelledby="download-book">
-						<img class="image-downloads image-downloads--shift" src="assets/images/book.png" alt="photo of book cover">
-					</a>
+            <header class="constrain pad-respond-y-mob">
 
-					<div class="flex-grow pad-respond-x-mob">
-						<h3>Educating Your 22nd Century Child</h3>
-						<p>Valuable information that all parents should know when choosing a school for their child.</p>
-					</div>
+                <h2 class="text-underline-red">School Accreditations</h2>
 
-					<div class="pad-double-t-mob">
-						<a href="landing-book-form.php" aria-labelledby="download-book">
-							<button class="theme-blue" id="download-book">Download</button>
-						</a>
-					</div>
+                <p>Education Incorporated is registered with the Gauteng Department of Education (JN700400746), Independent Examinations Board (IEB), Independent Schools Association of Southern Africa (ISASA) and Council for Quality Assurance in General and Further Education and <span class="no-break">Training (Umalusi)</span>.
+                </p>
 
-				</figure>
+            </header>
 
-				<!--
-				Item
-				-->
+            <!--
+            Container
+            -->
 
-				<figure class="flow-ttb-mob pad-double-y-mob theme-white border-l-tab border-b-mob">
+            <div class="flow-ttb-mob flow-ltr-tab height-100 constrain spread-respond pad-respond-xy-mob align-c-mob">
 
-					<a href="landing-prospectus-form.php" aria-labelledby="download-prospectus">
-						<img class="image-downloads image-downloads--shift" src="assets/images/prospectus.png" alt="photo of prospectus cover">
-					</a>
+                    <a href="http://www.gauteng.gov.za/government/departments/education/" aria-label="visit gauteng province education department website" target="blank" rel="noopener">
+                        <img src="assets/images/brands/gauteng-province-education-department.png" alt="gauteng province education department logo" width="160px" />
+                    </a>
 
-					<div class="flex-grow pad-respond-x-mob">
-						<h3>School Prospectus</h3>
-						<p>Learn how our school operates, our values and ethos, and why we may be the perfect fit for your child.</p>
-					</div>
+                    <a href="http://www.ieb.co.za/" aria-label="visit independent examinations board website" target="blank" rel="noopener">
+                        <img src="assets/images/brands/independent-examinations-board.png" alt="independent examinations board logo" width="75px" />
+                    </a>
 
-					<div class="pad-double-t-mob">
-						<a href="landing-prospectus-form.php" aria-label="download prospectus" aria-labelledby="download-prospectus">
-							<button class="theme-blue" id="download-prospectus">Download</button>
-						</a>
-					</div>
+                    <a href="http://www.isasa.org/" aria-label="visit independent schools association of southern africa website" target="blank" rel="noopener">
+                        <img src="assets/images/brands/independent-schools-association-of-southern-africa.png" alt="independent schools association of southern africa logo" width="90px" />
+                    </a>
 
-				</figure>
+                    <a href="http://www.umalusi.org.za/" aria-label="visit umalusi website" target="blank" rel="noopener">
+                        <img src="assets/images/brands/umalusi.png" alt="umalusi logo" width="200px" />
+                    </a>
 
-				<!--
-				Item
-				-->
+            </div>
 
-				<figure class="flow-ttb-mob pad-double-y-mob theme-white border-l-tab border-b-mob">
+        </section>
 
-					<a href="https://solidgoldstudios.co.za/eduthink.php" target="_blank" rel="noopener" aria-labelledby="listen-podcast">
-						<img class="image-downloads border-mob" src="assets/images/eduthink.jpg" alt="eduthink podcast cover art">
-					</a>
+        <!--
+        Downloads
+        -->
 
-					<div class="flex-grow pad-respond-x-mob">
-						<h3 class="">EduThink Podcast</h3>
-						<p class="">Listen to conversations and interviews on education-related topics that are important to today's families.</p>
-					</div>
+        <section class="theme-white">
 
-					<div class="pad-double-t-mob">
-						<a href="https://solidgoldstudios.co.za/eduthink.php" target="_blank" rel="noopener" aria-label="listen to podcast" aria-labelledby="listen-podcast">
-							<button class="theme-green" id="listen-podcast">Listen</button>
-						</a>
-					</div>
+            <!--
+            Container
+            -->
 
-				</figure>
+            <div class="flow-ttb-mob flow-ltr-tab align-s-tab">
 
-			</div>
+                <!--
+                Item
+                -->
 
-		</section>
+                <figure class="flow-ttb-mob pad-double-y-mob theme-white border-b-mob">
 
-		<!--
-		FAQ
-		-->
+                    <a href="landing-book-form.php" aria-labelledby="download-book">
+                        <img class="image-downloads image-downloads--shift" src="assets/images/book.png" alt="photo of book cover">
+                    </a>
 
-		<section class="pad-respond-t-mob theme-dark-grey" id="faq">
+                    <div class="flex-grow pad-respond-x-mob">
+                        <h3>Educating Your 22nd Century Child</h3>
+                        <p>Valuable information that all parents should know when choosing a school for their child.</p>
+                    </div>
 
-			<!--
-			Section header
-			-->
+                    <div class="pad-double-t-mob">
+                        <a href="landing-book-form.php" aria-labelledby="download-book">
+                            <button class="theme-blue" id="download-book">Download</button>
+                        </a>
+                    </div>
 
-			<header class="pad-respond-xy-mob">
+                </figure>
 
-				<h2 class="text-underline-red">Frequently Asked Questions</h2>
+                <!--
+                Item
+                -->
 
-			</header>
+                <figure class="flow-ttb-mob pad-double-y-mob theme-white border-l-tab border-b-mob">
 
-			<!--
+                    <a href="landing-prospectus-form.php" aria-labelledby="download-prospectus">
+                        <img class="image-downloads image-downloads--shift" src="assets/images/prospectus.png" alt="photo of prospectus cover">
+                    </a>
 
-			-->
+                    <div class="flex-grow pad-respond-x-mob">
+                        <h3>School Prospectus</h3>
+                        <p>Learn how our school operates, our values and ethos, and why we may be the perfect fit for your child.</p>
+                    </div>
 
-			<div class="pad-respond-y-mob">
+                    <div class="pad-double-t-mob">
+                        <a href="landing-prospectus-form.php" aria-label="download prospectus" aria-labelledby="download-prospectus">
+                            <button class="theme-blue" id="download-prospectus">Download</button>
+                        </a>
+                    </div>
 
-			<!--
-			Container 1
-			-->
+                </figure>
 
-			<div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
+                <!--
+                Item
+                -->
 
-				<!--
-				Item
-				-->
+                <figure class="flow-ttb-mob pad-double-y-mob theme-white border-l-tab border-b-mob">
 
-				<a class="width-100-mob" href="landing-1-article.php#soretummiesandotheranxieties" aria-label="sore tummies">
+                    <a href="https://solidgoldstudios.co.za/eduthink.php" target="_blank" rel="noopener" aria-labelledby="listen-podcast">
+                        <img class="image-downloads border-mob" src="assets/images/eduthink.jpg" alt="eduthink podcast cover art">
+                    </a>
 
-					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+                    <div class="flex-grow pad-respond-x-mob">
+                        <h3 class="">EduThink Podcast</h3>
+                        <p class="">Listen to conversations and interviews on education-related topics that are important to today's families.</p>
+                    </div>
 
-						<picture>
-							<source srcset="assets/images/photos/faq__teacher-student-talking.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__teacher-student-talking.jpg" alt="teacher talking to student" />
-						</picture>
+                    <div class="pad-double-t-mob">
+                        <a href="https://solidgoldstudios.co.za/eduthink.php" target="_blank" rel="noopener" aria-label="listen to podcast" aria-labelledby="listen-podcast">
+                            <button class="theme-green" id="listen-podcast">Listen</button>
+                        </a>
+                    </div>
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">Sore tummies and other anxieties</div>
-						</div>
+                </figure>
 
-					</figure>
+            </div>
 
-				</a>
+        </section>
 
-				<!--
-				Item
-				-->
+        <!--
+        FAQ
+        -->
 
-				<a class="width-100-mob" href="landing-1-article.php#caniaffordyourfees" aria-label="can I afford your fees?">
+        <section class="pad-respond-t-mob theme-dark-grey" id="faq">
 
-					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+            <!--
+            Section header
+            -->
 
-						<picture>
-							<source srcset="assets/images/photos/faq__two-children-on-floor-playing-game.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__two-children-on-floor-playing-game.jpg" alt="two children on floor playing a game" />
-						</picture>
+            <header class="pad-respond-xy-mob">
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">Can I afford your fees?</div>
-						</div>
+                <h2 class="text-underline-red">Frequently Asked Questions</h2>
 
-					</figure>
+            </header>
 
-				</a>
+            <!--
 
-			</div>
+            -->
 
-			<!--
-			Container 2
-			-->
+            <div class="pad-respond-y-mob">
 
-			<div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
+            <!--
+            Container 1
+            -->
 
-				<!--
-				Item
-				-->
+            <div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
 
-				<a class="width-100-mob" href="landing-1-article.php#ismychildunhappyatschool" aria-label="is my child unhappy at school?">
+                <!--
+                Item
+                -->
 
-					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+                <a class="width-100-mob" href="landing-1-article.php#soretummiesandotheranxieties" aria-label="sore tummies">
 
-						<picture>
-							<source srcset="assets/images/photos/faq__two-students-hugging.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__two-students-hugging.jpg" alt="two students hugging" />
-						</picture>
+                    <figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">Is my child unhappy at school?</div>
-						</div>
+                        <picture>
+                            <source srcset="assets/images/photos/faq__teacher-student-talking.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__teacher-student-talking.jpg" alt="teacher talking to student" />
+                        </picture>
 
-					</figure>
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">Sore tummies and other anxieties</div>
+                        </div>
 
-				</a>
+                    </figure>
 
-				<!--
-				Item
-				-->
+                </a>
 
-				<a class="width-100-mob" href="landing-3-article.php#areyouamainstreamschool" aria-label="Are you a mainstream school?">
+                <!--
+                Item
+                -->
 
-					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+                <a class="width-100-mob" href="landing-1-article.php#caniaffordyourfees" aria-label="can I afford your fees?">
 
-						<picture>
-							<source srcset="assets/images/photos/faq__children-science-class.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__children-science-class.jpg" alt="children in science class" />
-						</picture>
+                    <figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">Are you a mainstream school?</div>
-						</div>
+                        <picture>
+                            <source srcset="assets/images/photos/faq__two-children-on-floor-playing-game.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__two-children-on-floor-playing-game.jpg" alt="two children on floor playing a game" />
+                        </picture>
 
-					</figure>
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">Can I afford your fees?</div>
+                        </div>
 
-				</a>
+                    </figure>
 
-			</div>
+                </a>
 
-			<!--
-			Container 3
-			-->
+            </div>
 
-			<div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
+            <!--
+            Container 2
+            -->
 
-				<!--
-				Item
-				-->
+            <div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
 
-				<a class="width-100-mob" href="#pagefooter" aria-label="where is education incorporated situated?">
+                <!--
+                Item
+                -->
 
-					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+                <a class="width-100-mob" href="landing-1-article.php#ismychildunhappyatschool" aria-label="is my child unhappy at school?">
 
-						<picture>
-							<source srcset="assets/images/photos/faq__map.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__map.jpg" alt="where is education incorporated situated?" />
-						</picture>
+                    <figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">Where is Education Incorporated situated?</div>
-						</div>
+                        <picture>
+                            <source srcset="assets/images/photos/faq__two-students-hugging.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__two-students-hugging.jpg" alt="two students hugging" />
+                        </picture>
 
-					</figure>
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">Is my child unhappy at school?</div>
+                        </div>
 
-				</a>
+                    </figure>
 
-				<!--
-				Item
-				-->
+                </a>
 
-				<a class="width-100-mob" href="landing-1-article.php#doyouhavespaceformychild" aria-label="do you have space for my child?">
+                <!--
+                Item
+                -->
 
-					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+                <a class="width-100-mob" href="landing-3-article.php#areyouamainstreamschool" aria-label="Are you a mainstream school?">
 
-						<picture>
-							<source srcset="assets/images/photos/faq__four-students-outdoors.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__four-students-outdoors.jpg" alt="campus with lawn" />
-						</picture>
+                    <figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">Do you have space for my child?</div>
-						</div>
+                        <picture>
+                            <source srcset="assets/images/photos/faq__children-science-class.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__children-science-class.jpg" alt="children in science class" />
+                        </picture>
 
-					</figure>
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">Are you a mainstream school?</div>
+                        </div>
 
-				</a>
+                    </figure>
 
-			</div>
+                </a>
 
-			<!--
-			Container 4
-			-->
+            </div>
 
-			<div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
+            <!--
+            Container 3
+            -->
 
-				<!--
-				Item
-				-->
+            <div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
 
-				<a class="width-100-mob" href="landing-2-article.php#whatdoyoureallymeanbysmallclasses" aria-label="what do you really mean by small classes?">
+                <!--
+                Item
+                -->
 
-					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+                <a class="width-100-mob" href="#pagefooter" aria-label="where is education incorporated situated?">
 
-						<picture>
-							<source srcset="assets/images/photos/faq__smiling-children-biology-class.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__smiling-children-biology-class.jpg" alt="smiling children in biology class" />
-						</picture>
+                    <figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">What do you really mean by "small classes"?</div>
-						</div>
+                        <picture>
+                            <source srcset="assets/images/photos/faq__map.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__map.jpg" alt="where is education incorporated situated?" />
+                        </picture>
 
-					</figure>
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">Where is Education Incorporated situated?</div>
+                        </div>
 
-				</a>
+                    </figure>
 
-				<!--
-				Item
-				-->
+                </a>
 
-				<a class="width-100-mob" href="landing-2-article.php#doessmallclassesmeanremedial" aria-label="does small classes mean remedial?">
+                <!--
+                Item
+                -->
 
-					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+                <a class="width-100-mob" href="landing-1-article.php#doyouhavespaceformychild" aria-label="do you have space for my child?">
 
-						<picture>
-							<source srcset="assets/images/photos/faq__girl-watching-snail.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__girl-watching-snail.jpg" alt="children in science class" />
-						</picture>
+                    <figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">Does "small classes" mean remedial?</div>
-						</div>
+                        <picture>
+                            <source srcset="assets/images/photos/faq__four-students-outdoors.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__four-students-outdoors.jpg" alt="campus with lawn" />
+                        </picture>
 
-					</figure>
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">Do you have space for my child?</div>
+                        </div>
 
-				</a>
+                    </figure>
 
-			</div>
+                </a>
 
-			<!--
-			Container 5
-			-->
+            </div>
 
-			<div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
+            <!--
+            Container 4
+            -->
 
-				<!--
-				Item
-				-->
+            <div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
 
-				<a class="width-100-mob" href="landing-3-article.php#whydidyounameyourschooleducationincorporated" aria-label="why did you name your school education incorporated?">
+                <!--
+                Item
+                -->
 
-					<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+                <a class="width-100-mob" href="landing-2-article.php#whatdoyoureallymeanbysmallclasses" aria-label="what do you really mean by small classes?">
 
-						<picture>
-							<source srcset="assets/images/photos/faq__campus-with-pool.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__campus-with-pool.jpg" alt="campus with swimming pool" />
-						</picture>
+                    <figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">Why did you name your school Education Incorporated?</div>
-						</div>
+                        <picture>
+                            <source srcset="assets/images/photos/faq__smiling-children-biology-class.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__smiling-children-biology-class.jpg" alt="smiling children in biology class" />
+                        </picture>
 
-					</figure>
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">What do you really mean by "small classes"?</div>
+                        </div>
 
-				</a>
+                    </figure>
 
-				<!--
-				Figure 2
-				-->
+                </a>
 
-				<a class="width-100-mob" href="landing-1-article.php#whatdoyoumeanbyboutiqueschool" aria-label="what do you mean by boutique school?">
+                <!--
+                Item
+                -->
 
-						<figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+                <a class="width-100-mob" href="landing-2-article.php#doessmallclassesmeanremedial" aria-label="does small classes mean remedial?">
 
-						<picture>
-							<source srcset="assets/images/photos/faq__children-listening-to-teacher.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__children-listening-to-teacher.jpg" alt="children listening to teacher" />
-						</picture>
+                    <figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">What do you mean by "boutique school"?</div>
-						</div>
+                        <picture>
+                            <source srcset="assets/images/photos/faq__girl-watching-snail.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__girl-watching-snail.jpg" alt="children in science class" />
+                        </picture>
 
-					</figure>
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">Does "small classes" mean remedial?</div>
+                        </div>
 
-				</a>
+                    </figure>
 
-			</div>
+                </a>
 
-			<!--
-			Container 6
-			-->
+            </div>
 
-			<div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
+            <!--
+            Container 5
+            -->
 
-				<!--
-				Item
-				-->
+            <div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
 
-				<a class="width-100-mob" href="landing-2-article.php#doesmychildhavethepotentialyourelookingfor" aria-label="why did you name your school education incorporated?">
+                <!--
+                Item
+                -->
 
-					<figure class="card-link flow-ttb-mob flow-ltr-des width-50-tab pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
+                <a class="width-100-mob" href="landing-3-article.php#whydidyounameyourschooleducationincorporated" aria-label="why did you name your school education incorporated?">
 
-						<picture>
-							<source srcset="assets/images/photos/faq__grade-6-class-photo-on-chairs.webp" type="image/webp" />
-							<img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__grade-6-class-photo-on-chairs.jpg" alt="grade 6 class photo sitting on chairs" />
-						</picture>
+                    <figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-						<div class="flow-ttb-mob pad-xy-mob width-100-mob">
-							<div class="h3 text-c-mob text-l-des">Does my child have the potential you're looking for?</div>
-						</div>
+                        <picture>
+                            <source srcset="assets/images/photos/faq__campus-with-pool.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__campus-with-pool.jpg" alt="campus with swimming pool" />
+                        </picture>
 
-					</figure>
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">Why did you name your school Education Incorporated?</div>
+                        </div>
 
-				</a>
+                    </figure>
 
-			</div>
+                </a>
 
-		</section>
+                <!--
+                Figure 2
+                -->
 
-		<!--
-		Our students
-		-->
+                <a class="width-100-mob" href="landing-1-article.php#whatdoyoumeanbyboutiqueschool" aria-label="what do you mean by boutique school?">
 
-		<section class="pad-respond-t-mob theme-white">
+                        <figure class="card-link flow-ttb-mob flow-ltr-des pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-			<!--
-			Section header
-			-->
+                        <picture>
+                            <source srcset="assets/images/photos/faq__children-listening-to-teacher.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__children-listening-to-teacher.jpg" alt="children listening to teacher" />
+                        </picture>
 
-			<header class="constrain pad-x-mob pad-respond-y-mob">
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">What do you mean by "boutique school"?</div>
+                        </div>
 
-				<h2 class="text-underline-red">Our Students</h2>
+                    </figure>
 
-				<p>When a child begins their educational journey with us we understand that it is precisely that&mdash;a journey. A long-term process of individualised, whole-child development where potential can be discovered and honed. Where responsible, respectful value systems can be instilled, preparing each child for the world they will encounter after their time with us.</p>
+                </a>
 
-			</header>
+            </div>
 
-			<!--
-			Container
-			-->
+            <!--
+            Container 6
+            -->
 
-			<div class="flow-ttb-mob pad-respond-t-mob">
+            <div class="flow-ttb-mob flow-ltr-tab constrain spread-respond pad-b-mob align-s-mob">
 
-				<!--
-				Item: Academics
-				-->
+                <!--
+                Item
+                -->
 
-				<a class="width-100-mob" href="academics.php" aria-label="academics">
+                <a class="width-100-mob" href="landing-2-article.php#doesmychildhavethepotentialyourelookingfor" aria-label="why did you name your school education incorporated?">
 
-					<figure class="flow-ttb-mob flow-ltr-tab theme-white radius-mob border-t-mob border-b-mob">
+                    <figure class="card-link flow-ttb-mob flow-ltr-des width-50-tab pad-x-mob pad-t-mob pad-b-des align-c-mob justify-fs-des radius-mob">
 
-						<div class="image-background our-students__two-girls-holding-awards width-40-tab accent-yellow"></div>
+                        <picture>
+                            <source srcset="assets/images/photos/faq__grade-6-class-photo-on-chairs.webp" type="image/webp" />
+                            <img class="image-size-medium round-mob border-mob" src="assets/images/photos/faq__grade-6-class-photo-on-chairs.jpg" alt="grade 6 class photo sitting on chairs" />
+                        </picture>
 
-						<div class="pad-respond-x-mob pad-y-mob width-60-tab">
+                        <div class="flow-ttb-mob pad-xy-mob width-100-mob">
+                            <div class="h3 text-c-mob text-l-des">Does my child have the potential you're looking for?</div>
+                        </div>
 
-							<h3 class="text-l-tab">Our Students Are <span class="font-red">Academics</span></h3>
+                    </figure>
 
-							<p class="text-l-tab">We understand that a good education is not an event, but rather a process. Our educational philosophy understands that learning is about more than just text books and rote learning. We understand that in order to demonstrate academic development, the development of EQ (emotional quotient) and AQ (application quotient) are just as important. We dedicate time to working with our students on how to implement effective study strategies, how to work efficiently in groups, and how best to demonstrate the preparation students put into assessments and exams.</p>
+                </a>
 
-						</div>
+            </div>
 
-					</figure>
+        </section>
 
-				</a>
+        <!--
+        Our students
+        -->
 
-				<!--
-				Item: Creatives
-				-->
+        <section class="pad-respond-t-mob theme-white">
 
-				<a class="width-100-mob" href="creatives.php" aria-label="creatives">
+            <!--
+            Section header
+            -->
 
-					<figure class="flow-ttb-mob flow-rtl-tab theme-white radius-mob border-b-mob">
+            <header class="constrain pad-x-mob pad-respond-y-mob">
 
-						<div class="image-background our-students__two-students-playing-guitar width-40-tab accent-green"></div>
+                <h2 class="text-underline-red">Our Students</h2>
 
-						<div class="pad-respond-x-mob pad-y-mob width-60-tab">
+                <p>When a child begins their educational journey with us we understand that it is precisely that&mdash;a journey. A long-term process of individualised, whole-child development where potential can be discovered and honed. Where responsible, respectful value systems can be instilled, preparing each child for the world they will encounter after their time with us.</p>
 
-							<h3 class="text-r-tab">Our Students Are <span class="font-yellow">Creatives</span></h3>
+            </header>
 
-							<p class="text-r-tab">The importance of creative talents in the fields of drama, music and art can be as important to whole-child development as any academic pursuit. While EduInc does not offer formal arts subjects at FET level, we do accomodate young musicians, actors, models and artists who need to juggle gruelling audition, rehearsal, performance and competition schedules with a full academic programme. Our dedicated staff is always willing to assist these students attain their goals on stage, in studio and in the classroom.</p>
+            <!--
+            Container
+            -->
 
-						</div>
+            <div class="flow-ttb-mob pad-respond-t-mob">
 
-					</figure>
+                <!--
+                Item: Academics
+                -->
 
-				</a>
+                <a class="width-100-mob" href="academics.php" aria-label="academics">
 
-				<!--
-				Item: Entrepreneurs
-				-->
+                    <figure class="flow-ttb-mob flow-ltr-tab theme-white radius-mob border-t-mob border-b-mob">
 
-				<a class="width-100-mob" href="entrepreneurs.php" aria-label="entrepreneurs">
+                        <div class="image-background our-students__two-girls-holding-awards width-40-tab accent-yellow"></div>
 
-					<figure class="flow-ttb-mob flow-ltr-tab theme-white radius-mob border-b-mob">
+                        <div class="pad-respond-x-mob pad-y-mob width-60-tab">
 
-						<div class="image-background our-students__boy-sitting-with-notebook width-40-tab accent-purple"></div>
+                            <h3 class="text-l-tab">Our Students Are <span class="font-red">Academics</span></h3>
 
-						<div class="pad-respond-x-mob pad-y-mob width-60-tab">
+                            <p class="text-l-tab">We understand that a good education is not an event, but rather a process. Our educational philosophy understands that learning is about more than just text books and rote learning. We understand that in order to demonstrate academic development, the development of EQ (emotional quotient) and AQ (application quotient) are just as important. We dedicate time to working with our students on how to implement effective study strategies, how to work efficiently in groups, and how best to demonstrate the preparation students put into assessments and exams.</p>
 
-							<h3 class="text-l-tab">Our Students Are <span class="font-purple">Entrepreneurs</span></h3>
+                        </div>
 
-							<p class="text-l-tab">Students live in a world that is evolving and developing at an exponentially faster pace. Our focus is on critical thinking and the mastery of skills required to understand our changing world.</p>
+                    </figure>
 
-						</div>
+                </a>
 
-					</figure>
+                <!--
+                Item: Creatives
+                -->
 
-				</a>
+                <a class="width-100-mob" href="creatives.php" aria-label="creatives">
 
-				<!--
-				Item: Sports achievers
-				-->
+                    <figure class="flow-ttb-mob flow-rtl-tab theme-white radius-mob border-b-mob">
 
-				<a class="width-100-mob" href="sports-achievers.php" aria-label="sports achievers">
+                        <div class="image-background our-students__two-students-playing-guitar width-40-tab accent-green"></div>
 
-					<figure class="flow-ttb-mob flow-rtl-tab theme-white radius-mob border-b-mob">
+                        <div class="pad-respond-x-mob pad-y-mob width-60-tab">
 
-						<div class="image-background our_students__girl-karate width-40-tab accent-red"></div>
+                            <h3 class="text-r-tab">Our Students Are <span class="font-yellow">Creatives</span></h3>
 
-						<div class="pad-respond-x-mob pad-y-mob width-60-tab">
+                            <p class="text-r-tab">The importance of creative talents in the fields of drama, music and art can be as important to whole-child development as any academic pursuit. While EduInc does not offer formal arts subjects at FET level, we do accomodate young musicians, actors, models and artists who need to juggle gruelling audition, rehearsal, performance and competition schedules with a full academic programme. Our dedicated staff is always willing to assist these students attain their goals on stage, in studio and in the classroom.</p>
 
-							<h3 class="text-r-tab">Our Students Are <span class="font-green">Sports Achievers</span></h3>
+                        </div>
 
-							<p class="text-r-tab">EduInc is home to sports achievers who complete at both Provincial and National levels. These are students who are required to balance gruelling training and competition schedules with a full academic load. Our dedicated staff works to assist these students in attaining their both sporting and academic goals.</p>
+                    </figure>
 
-						</div>
+                </a>
 
-					</figure>
+                <!--
+                Item: Entrepreneurs
+                -->
 
-				</a>
+                <a class="width-100-mob" href="entrepreneurs.php" aria-label="entrepreneurs">
 
-				<!--
-				Item: Individuals
-				-->
+                    <figure class="flow-ttb-mob flow-ltr-tab theme-white radius-mob border-b-mob">
 
-				<a class="width-100-mob" href="individuals.php" aria-label="individuals">
+                        <div class="image-background our-students__boy-sitting-with-notebook width-40-tab accent-purple"></div>
 
-					<figure class="flow-ttb-mob flow-ltr-tab theme-white radius-mob border-b-mob">
+                        <div class="pad-respond-x-mob pad-y-mob width-60-tab">
 
-						<div class="image-background our-students__boy-reading-in-tree width-40-tab accent-blue"></div>
+                            <h3 class="text-l-tab">Our Students Are <span class="font-purple">Entrepreneurs</span></h3>
 
-						<div class="pad-respond-x-mob pad-y-mob width-60-tab">
+                            <p class="text-l-tab">Students live in a world that is evolving and developing at an exponentially faster pace. Our focus is on critical thinking and the mastery of skills required to understand our changing world.</p>
 
-							<h3 class="text-l-tab">Our Students Are <span class="font-red">Individuals</span></h3>
+                        </div>
 
-							<p class="text-l-tab">We focus on creating an environment that recognises and nurtures the potential of each individual child through a mentored style of teaching, in very small classes, allowing them to identify their strengths in a supportive, collaborative environment.</p>
+                    </figure>
 
-						</div>
+                </a>
 
-					</figure>
+                <!--
+                Item: Sports achievers
+                -->
 
-				</a>
+                <a class="width-100-mob" href="sports-achievers.php" aria-label="sports achievers">
 
-			</div>
+                    <figure class="flow-ttb-mob flow-rtl-tab theme-white radius-mob border-b-mob">
 
-		</section>
+                        <div class="image-background our_students__girl-karate width-40-tab accent-red"></div>
 
-		<!--
-		Houses
-		-->
+                        <div class="pad-respond-x-mob pad-y-mob width-60-tab">
 
-		<section class="pad-respond-xy-mob theme-grey">
+                            <h3 class="text-r-tab">Our Students Are <span class="font-green">Sports Achievers</span></h3>
 
-			<!--
-			Section header
-			-->
+                            <p class="text-r-tab">EduInc is home to sports achievers who complete at both Provincial and National levels. These are students who are required to balance gruelling training and competition schedules with a full academic load. Our dedicated staff works to assist these students in attaining their both sporting and academic goals.</p>
 
-			<header class="constrain pad-y-mob">
+                        </div>
 
-				<h2 class="text-underline-red">School Houses</h2>
+                    </figure>
 
-				<p>Each new student completes a questionnaire that determines which of four Houses, named for flying mythological creatures, they will be allocated to. They are then issued a pin to wear on their uniform to indicate their House.</p>
+                </a>
 
-				<div class="footer">
-					<a href="houses.php" aria-label="school houses"><button class="theme-blue" aria-label="button">Learn More</button></a>
-				</div>
+                <!--
+                Item: Individuals
+                -->
 
-			</header>
+                <a class="width-100-mob" href="individuals.php" aria-label="individuals">
 
-			<!--
-			Container
-			-->
+                    <figure class="flow-ttb-mob flow-ltr-tab theme-white radius-mob border-b-mob">
 
-			<div class="flow-ttb-mob flow-ltr-tab constrain spread pad-y-mob align-s-tab">
+                        <div class="image-background our-students__boy-reading-in-tree width-40-tab accent-blue"></div>
 
-				<!--
-				Item: Griffin
-				-->
+                        <div class="pad-respond-x-mob pad-y-mob width-60-tab">
 
-				<figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
+                            <h3 class="text-l-tab">Our Students Are <span class="font-red">Individuals</span></h3>
 
-					<div class="house__griffin-image"></div>
+                            <p class="text-l-tab">We focus on creating an environment that recognises and nurtures the potential of each individual child through a mentored style of teaching, in very small classes, allowing them to identify their strengths in a supportive, collaborative environment.</p>
 
-					<div class="house__griffin-name"></div>
+                        </div>
 
-					<div class="flex-grow pad-xy-mob">
-						<p>Courage, Intelligence and Determination</p>
-					</div>
+                    </figure>
 
-				</figure>
+                </a>
 
-				<!--
-				Item: Dragon
-				-->
+            </div>
 
-				<figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
+        </section>
 
-					<div class="house__dragon-image"></div>
+        <!--
+        Houses
+        -->
 
-					<div class="house__dragon-name"></div>
+        <section class="pad-respond-xy-mob theme-grey">
 
-					<div class="flex-grow pad-xy-mob">
-						<p>Power, Wisdom and Protection</p>
-					</div>
+            <!--
+            Section header
+            -->
 
-				</figure>
+            <header class="constrain pad-y-mob">
 
-				<!--
-				Item: Pegasus
-				-->
+                <h2 class="text-underline-red">School Houses</h2>
 
-				<figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
+                <p>Each new student completes a questionnaire that determines which of four Houses, named for flying mythological creatures, they will be allocated to. They are then issued a pin to wear on their uniform to indicate their House.</p>
 
-					<div class="house__pegasus-image"></div>
+                <div class="footer">
+                    <a href="houses.php" aria-label="school houses"><button class="theme-blue" aria-label="button">Learn More</button></a>
+                </div>
 
-					<div class="house__pegasus-name"></div>
+            </header>
 
-					<div class="flex-grow pad-xy-mob">
-						<p>Inspiration, Enlightenment and Loyalty</p>
-					</div>
+            <!--
+            Container
+            -->
 
-				</figure>
+            <div class="flow-ttb-mob flow-ltr-tab constrain spread pad-y-mob align-s-tab">
 
-				<!--
-				Item: Phoenix
-				-->
+                <!--
+                Item: Griffin
+                -->
 
-				<figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
+                <figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
 
-					<div class="house__phoenix-image"></div>
+                    <div class="house__griffin-image"></div>
 
-					<div class="house__phoenix-name"></div>
+                    <div class="house__griffin-name"></div>
 
-					<div class="flex-grow pad-xy-mob">
-						<p>Purity, Reason and Independence</p>
-					</div>
+                    <div class="flex-grow pad-xy-mob">
+                        <p>Courage, Intelligence and Determination</p>
+                    </div>
 
-				</figure>
+                </figure>
 
+                <!--
+                Item: Dragon
+                -->
 
-			</div>
+                <figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
 
-		</section>
+                    <div class="house__dragon-image"></div>
 
-		<!--
-		PARTIAL > Contact form
-		-->
-		<?php include("assets/partials/contact-form.html"); ?>
+                    <div class="house__dragon-name"></div>
 
-	</main>
+                    <div class="flex-grow pad-xy-mob">
+                        <p>Power, Wisdom and Protection</p>
+                    </div>
 
-	<!--
-	PARTIAL > Page footer
-	-->
-	<?php include("assets/partials/page-footer.html"); ?>
+                </figure>
+
+                <!--
+                Item: Pegasus
+                -->
+
+                <figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
+
+                    <div class="house__pegasus-image"></div>
+
+                    <div class="house__pegasus-name"></div>
+
+                    <div class="flex-grow pad-xy-mob">
+                        <p>Inspiration, Enlightenment and Loyalty</p>
+                    </div>
+
+                </figure>
+
+                <!--
+                Item: Phoenix
+                -->
+
+                <figure class="flow-ttb-mob width-100-mob pad-double-t-mob pad-b-mob radius-mob theme-white border-mob accent-red shadow-mob">
+
+                    <div class="house__phoenix-image"></div>
+
+                    <div class="house__phoenix-name"></div>
+
+                    <div class="flex-grow pad-xy-mob">
+                        <p>Purity, Reason and Independence</p>
+                    </div>
+
+                </figure>
+
+
+            </div>
+
+        </section>
+
+        <!--
+        PARTIAL > Contact form
+        -->
+        <?php include("assets/partials/contact-form.html"); ?>
+
+    </main>
+
+    <!--
+    PARTIAL > Page footer
+    -->
+    <?php include("assets/partials/page-footer.html"); ?>
 
 </body>
 
