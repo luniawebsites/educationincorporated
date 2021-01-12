@@ -127,7 +127,7 @@
 
                 <div class="pad-t-mob">
 
-                        <h1>Not a single hour of teaching has been lost as we moved to teaching online.</h1>
+                        <h1>Is your child getting the education they deserve?</h1>
 
                         <div class="h2">Our admissions remain open if you need to <a class="no-break" href="tour-request-form.php">move your child.</a></div>
 
@@ -204,14 +204,17 @@
                     <h2 class="text-underline-red">We Have a Unique Perspective on Education</h2>
                     -->
 
-                    <h2 class="text-underline-red">We are still open — remotely</h2>
+                    <h2 class="text-underline-red">We're still teaching — Under all levels</h2>
 
-                    <p>Our school is still open and we have Teachers in every class for a full teaching day. When shut-downs started, we had already pivoted to Schooling-at-Home, which is <strong>not</strong> the same as homeschooling, and we have not missed a single hour of teaching! We're following a <strong>full daily teaching timetable</strong> and the role of Parents is not to teach, but rather to ensure their child is at their dedicated Schooling-at-Home work space each day — our Teachers do the teaching.</p>
+                    <p>Our school is still open and we have teachers in every class for a full teaching day, every day. Whether we're all on campus, schooling from home or utilising our effective Hybrid Classrooms, we're always open to keep our pupils on track for their academic year.</p>
+
+                    <p>When shutdowns started we had already pivoted to Schooling-at-Home at home—which is <strong>not</strong> the same as homeschooling—and we have not missed a single hour of teaching! We're following a <strong>full daily teaching timetable</strong> and the role of parents is not to teach, but rather to ensure their child is at their dedicated Schooling-at-Home workspace each day. Our Teachers do the teaching.</p>
 
                     <p>If you have <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener" aria-label="contact us">any questions</a> you're grappling with, let us know. We're here to help.</p>
-                    <p>If you're worried about your child falling behind, we're currently accepting new pupils for a <a class="no-break" href="tour-request-form.php">remote trial week</a> if you'd like to experience how Schooling-at-Home is working and how we can keep them on-track for the 2020 academic year.</p>
 
-                    <p>With our very small classes, each child is assured <strong>personal attention</strong> from our qualified and caring teachers. As a mainstream GDE-registered and Umalusi-accredited school, our Matrics write the same exams as the other private IEB schools you are familiar with. We’re extremely proud of our <strong>100% pass rate</strong> and look forward to <a href="https://landing.mailerlite.com/webforms/landing/k0t8k2" target="_blank" rel="noopener" aria-label="contact us">answering any questions</a> you may have about EduInc.</p>
+                    <p>If you're worried about your child falling behind, we're currently accepting a few more pupils in some grades. To learn more, please <a class="no-break" href="tour-request-form.php">book a tour</a> and come see for yourself how we're continuing to provide a quality, boutique, education experience.
+
+                    <p>With our very small classes, each child is assured <strong>personal attention</strong> from our qualified and caring teachers. As a mainstream <strong>IEB GDE-registered</strong> and <strong>Umalusi-accredited</strong> school, our Matrics write the same exams as the other private IEB schools you are familiar with. We’re extremely proud of our 100% pass rate and look forward to answering any questions you may have about EduInc.</p>
 
                 </div>
 
@@ -220,7 +223,7 @@
         </section>
 
         <!--
-        We are still open
+        Our Covid-19 response
         -->
 
         <section class="pad-respond-xy-mob theme-dark-grey border-b-mob">
