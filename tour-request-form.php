@@ -25,8 +25,8 @@
 	<?php include("assets/partials/loadCSS.html"); ?>
 
 	<meta name="robots" content="index, follow">
-	<!-- <meta name="pagename" content="Request a Tour of Education Incorporated Boutique School"> -->
-    <meta name="pagename" content="Request a Remote Trial Week with Education Incorporated Boutique School">
+	<meta name="pagename" content="Book a Tour of Education Incorporated Boutique School">
+    <!-- <meta name="pagename" content="Request a Remote Trial Week with Education Incorporated Boutique School"> -->
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="320">
 
@@ -35,8 +35,8 @@
 	-->
 	<?php include("assets/partials/base-url.html"); ?>
 
-	<!-- <meta property="og:title" content="Request a Tour of Education Incorporated Boutique School" /> -->
-    <meta property="og:title" content="Request a Remote Trial Week with Education Incorporated Boutique School" />
+	<meta property="og:title" content="Book a Tour of Education Incorporated Boutique School" />
+    <!-- <meta property="og:title" content="Request a Remote Trial Week with Education Incorporated Boutique School" /> -->
 	<meta property="og:keywords" content="" />
 	<meta property="og:description" content="" />
 	<meta property="og:locale" content="en_ZA" />
@@ -44,8 +44,8 @@
 	<meta property="og:image" content="https://educationincorporated.co.za/assets/images/education-incorporated-logo.png" />
 	<meta property="og:type" content="website" />
 	<link rel="canonical" href="https://educationincorporated.co.za/tour-request-form.php" />
-	<!-- <title>Request a Tour of Education Incorporated Boutique School</title> -->
-    <title>Request a Remote Trial Week with Education Incorporated Boutique School</title>
+	<title>Book a Tour of Education Incorporated Boutique School</title>
+    <!-- <title>Request a Remote Trial Week with Education Incorporated Boutique School</title> -->
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 	<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
 	<link rel="dns-prefetch" href="https://educationincorporated.co.za/">
