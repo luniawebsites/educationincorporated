@@ -77,9 +77,9 @@
 		
 			<h1 class="pad-respond-t-mob text-underline-red">Welcome to Assembly :-)</h1>
 
-			<p>Assembly <strong>Meets</strong> start at 08h00 on Fridays</p>
+			<p>Assembly <strong>Meets</strong> start at 09h45 on Fridays</p>
 			<p>See the points and birthdays <a href="http://myschool.org.za/EduInc/dashboard01.html">dashboard</a> for House and Student of the Week.</p>
-			<p>Have you listened to our latest <a href="https://solidgoldstudios.co.za/channel.php?title=education-incorporated">podcast</a> ?</p>
+			<p>Have you listened to our latest <a href="https://pod.link/1439099991">podcast</a> ?</p>
 			
 			<div class="flow-ttb-mob flow-ltr-tab constrain pad-respond-y-mob align-fs-tab">
 
