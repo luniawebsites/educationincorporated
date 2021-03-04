@@ -90,7 +90,7 @@
 		-->
 		<section class="pad-respond-xy-mob theme-white border-b-mob shadow-t-mob">
 
-            <iframe src="https://iframe.iono.fm/c/6057?accent=37377f&description=1&sharing=1" width="100%" height="100%" frameborder="0"></iframe>
+            <iframe src="https://iframe.iono.fm/c/6057?accent=37377f&description=1&sharing=1" width="100%" height="750px" frameborder="0"></iframe>
 
 		</section>
 
